@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="rare_icecream_campaign"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.IceCreamMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>5</big>
+         <small>5</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="4"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product price="10">
+         <code>b0 rareicecreamwhite</code>
+         <name>Rare icecream white</name>
+         <text>Basic model</text>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <aliasdata>
+      <alias name="rare_icecream_campaign2">
+         <description>Ingman campaign for finnish hotel 05/2007</description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

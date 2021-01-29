@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="transparent_floor" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <stand/>
+      </interaction>
+      <stacking>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>2</x>
+         <y>2</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>5</big>
+         <small>5</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+         <state id="3"/>
+      </states>
+    <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>transparent_floor</code>
+         <name>transparent_floor name</name>
+         <text>transparent_floor desc</text>
+         <excludedfromdynamic/>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="rug"/>
+   </metadata>
+</hofdata>

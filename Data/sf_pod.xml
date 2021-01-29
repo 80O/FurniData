@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="sf_pod"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <lay/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>3</y>
+         <height>1.36</height>
+      </dimensions>
+      <sprites>
+         <big>8</big>
+         <small>8</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>sf_pod</code>
+         <name>sf_pod</name>
+         <text/>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="bed"/>
+   </metadata>
+</hofdata>

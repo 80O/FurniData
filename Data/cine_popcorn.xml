@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="cine_popcorn" runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors/>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="63"/>
+      </drinks>
+<builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>cine_popcorn</code>
+         <name>cine_popcorn name</name>
+         <text>cine_popcorn desc</text>
+         <excludedfromdynamic/>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

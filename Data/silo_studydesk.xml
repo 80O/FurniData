@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="silo_studydesk" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>2</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>4</big>
+         <small>4</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+      <partcolors>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+      <builders-club-compatible/>
+    </roomitemdata>
+   <productdata>
+      <product>
+         <code>a0 silostudydesk</code>
+         <name>For the true Habbo Scholars</name>
+         <text>Area Master Desk</text>
+         <excludedfromdynamic/>
+         <offers>
+            <offer credits="15" type="credit"/>
+            <offer credits="7" pixels="139" type="discount"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="other"/>
+   </metadata>
+</hofdata>

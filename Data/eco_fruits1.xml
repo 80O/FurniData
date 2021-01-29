@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="eco_fruits1"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="36"/>
+         <drink id="37"/>
+         <drink id="38"/>
+         <drink id="39"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>eco_fruits1</code>
+         <name>eco_fruits1 name</name>
+         <text>eco_fruits1 desc</text>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

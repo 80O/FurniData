@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="prizetrophy8"
+                 specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TrophyPurchaseClass">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>6</direction>
+      </directions>
+      <partcolors colorid="1">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFDD3F</layer>
+      </partcolors>
+      <specialtype id="11"/>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TrophyPurchaseClass">
+      <product colorid="1" price="12">
+         <code>a0 prizetrophy8_g</code>
+         <name>Duo trophy</name>
+         <text>Glittery gold</text>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="trophy"/>
+   </metadata>
+</hofdata>

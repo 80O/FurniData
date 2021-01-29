@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="fortune" customparams="states=8,delay=2000" runtimeclass="com.fuse.projects.goldfish.custom_furni.RandomStateRoomItemRuntime">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>6</big>
+         <small>6</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <everyone-can-use/>
+      <states>
+         <state id="1"/>
+         <state id="2"/>
+         <state id="3"/>
+         <state id="4"/>
+         <state id="5"/>
+         <state id="6"/>
+         <state id="7"/>
+         <state id="8"/>
+      </states>
+<builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product>
+         <code>DEV fortune</code>
+         <name>fortune</name>
+         <text/>
+         <offers>
+            <offer activityPointType="2" credits="2" pixels="3" type="pixel"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="fortuna"/>
+   </metadata>
+</hofdata>

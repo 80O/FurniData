@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><!DOCTYPE hofdata SYSTEM "hofdata.dtd"><hofdata>
+  <roomitemdata class="track12_hcauldron" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor" runtimeclass="com.sulake.habbo.roomengine.furni.StatefulStuffDataSwitchStateFurniture" >
+    <dimensions>
+      <x>2</x>
+      <y>1</y>
+      <height>1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>2</direction>
+    </directions>
+    <partcolors/>
+    <notrecyclable/>
+    <notexportable/>
+    <notgroupable/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+      <state id="3"/>
+    </states>
+    <limitededition/>
+    <editionsizemultiplier>1</editionsizemultiplier>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor">
+    <product price="75">
+      <code>track12_hcauldron</code>
+      <name>track12_hcauldron name</name>
+      <text>track12_hcauldron desc</text>
+      <excludedfromdynamic/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

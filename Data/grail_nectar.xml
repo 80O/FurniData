@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="grail_nectar" customparams="12" runtimeclass="com.fuse.agent.pets.FUSEPetWaterbowlRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetWaterBowlPurchaseClass">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+      </directions>
+      <partcolors/>
+      <states/>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetWaterBowlPurchaseClass">
+      <product price="1">
+         <code>grail_nectar</code>
+         <name>grail_nectar name</name>
+         <text>grail_nectar desc</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

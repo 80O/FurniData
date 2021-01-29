@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ads_hh_safe"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>4</direction>
+         <direction>2</direction>
+      </directions>
+      <partcolors/>
+      <nottradeable/>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="59"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>ads_hh_safe</code>
+         <name>ads_hh_safe name</name>
+         <text>ads_hh_safe desc</text>
+      </product>
+   </productdata>
+   <aliasdata>
+      <alias name="ads_hh_safecmp">
+         <description>Hacker Hunt Campaign Safe</description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

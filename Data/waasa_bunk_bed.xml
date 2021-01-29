@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="waasa_bunk_bed" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <sit/>
+      </interaction>
+      <dimensions>
+         <x>3</x>
+         <y>1</y>
+         <height>3.4</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+    <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="5">
+         <code>waasa_bunk_bed</code>
+         <name>waasa_bunk_bed name</name>
+         <text>waasa_bunk_bed desc</text>
+         <excludedfromdynamic/>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="bed"/>
+   </metadata>
+</hofdata>

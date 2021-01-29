@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="val_r17_organltd" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor" runtimeclass="com.sulake.habbo.roomengine.furni.StatefulStuffDataSwitchStateFurniture">
+    <dimensions>
+      <x>2</x>
+      <y>1</y>
+      <height>0.0001</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>4</direction>
+    </directions>
+    <partcolors/>
+    <specialtype id="1"/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+      <state id="3"/>
+    </states>
+    <limitededition/>
+    <editionsizemultiplier>1</editionsizemultiplier>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor">
+    <product price="1">
+      <code>val_r17_organltd</code>
+      <name>val_r17_organltd name</name>
+      <text>val_r17_organltd desc</text>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

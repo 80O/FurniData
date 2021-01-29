@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="botnest" runtimeclass="com.fuse.agent.bots.BotNestRuntime">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>1</direction>
+         <direction>2</direction>
+         <direction>3</direction>
+         <direction>4</direction>
+         <direction>5</direction>
+         <direction>6</direction>
+         <direction>7</direction>
+      </directions>
+      <notrecyclable/>
+      <nottradeable/>
+      <notexportable/>
+      <notgroupable/>
+      <expiring duration_seconds="60"/>
+   </roomitemdata>
+   <productdata>
+      <product>
+         <code>botnest</code>
+         <name>botnest name</name>
+         <text>botnest desc</text>
+         <parameter/>
+         <offers>
+            <offer credits="1" type="credit"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="rug"/>
+   </metadata>
+</hofdata>

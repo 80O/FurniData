@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="goodie1" customparams="0,0,100" runtimeclass="com.fuse.agent.pets.FUSEPetGoodieRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetGoodiePurchaseClass">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+      </directions>
+      <partcolors colorid="2">
+         <layer>#ffbf00</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors colorid="1">
+         <layer>#3fffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors>
+         <layer>#ff4cbf</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <notrecyclable/>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetGoodiePurchaseClass">
+      <product colorid="2" price="1">
+         <code>A0 petgoodie1c</code>
+         <name>Marzipan Man</name>
+         <text>Crunchy Dog Treat</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="1" price="1">
+         <code>A0 petgoodie1b</code>
+         <name>Marzipan Man</name>
+         <text>Crunchy Dog Treat</text>
+         <allowbundlepurchase/>
+    </product>
+      <product price="1">
+         <code>A0 petgoodie1a</code>
+         <name>Marzipan Man</name>
+         <text>Crunchy Dog Treat</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

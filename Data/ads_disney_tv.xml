@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ads_disney_tv"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>3</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>6</big>
+         <small>5</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <everyone-can-use/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product price="6">
+         <code>ads_disney_tv</code>
+         <name>ads_disney_tv name</name>
+         <text>ads_disney_tv text</text>
+      </product>
+   </productdata>
+   <aliasdata>
+      <alias name="ads_disney_tvcmp">
+         <description>Disney Campaign TV</description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="other"/>
+   </metadata>
+</hofdata>

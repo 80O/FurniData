@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="arcade_cab" runtimeclass="com.sulake.habbo.roomengine.furni.StatefulStuffDataSwitchStateFurniture" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>2</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+    <partcolors/>    <notrecyclable/>    <notexportable/>    <notgroupable/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>    <limitededition/>    <editionsizemultiplier>1</editionsizemultiplier>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor">
+    <product price="1">
+         <code>arcade_cab</code>
+         <name>arcade_cab name</name>
+         <text>arcade_cab desc</text>
+         <parameter/>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="other"/>
+   </metadata>
+</hofdata>

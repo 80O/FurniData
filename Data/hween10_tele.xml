@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="hween10_tele" customparams="default_direction=2" runtimeclass="com.fuse.projects.goldfish.custom_furni.TeleportStuffRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>8</big>
+         <small>8</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+      <partcolors/>
+      <notexportable/>
+      <everyone-can-use/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+      </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+      <product price="1">
+         <code>hween10_tele</code>
+         <name>hween10_tele name</name>
+         <text>hween10_tele desc</text>
+         
+    </product>
+   </productdata>
+   <metadata>
+      <category name="teleport"/>
+   </metadata>
+</hofdata>

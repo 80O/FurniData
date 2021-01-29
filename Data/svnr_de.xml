@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="svnr_de"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product price="100">
+         <code>svnr_de</code>
+         <name>svnr_de name</name>
+         <text>svnr_de desc</text>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="other"/>
+   </metadata>
+</hofdata>

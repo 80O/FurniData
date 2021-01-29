@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="hc3_hugelamp"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>4</direction>
+      </directions>
+      <partcolors/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product price="1" clublevel="2">
+         <code>hc3_hugelamp</code>
+         <name>hc3_hugelamp name</name>
+         <text>hc3_hugelamp desc</text>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="lighting"/>
+   </metadata>
+</hofdata>

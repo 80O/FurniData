@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="safe_silo_pb"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <stacking>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.9</height>
+      </dimensions>
+      <sprites>
+         <big>4</big>
+         <small>4</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="3"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product price="10">
+         <code>a0 safe_silo_pb</code>
+         <name>postbank Safe</name>
+         <text>Totally shatter-proof!</text>
+      </product>
+   </productdata>
+   <aliasdata>
+      <alias name="safe_silo_pbo">
+         <description>Postbank safe without logo</description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

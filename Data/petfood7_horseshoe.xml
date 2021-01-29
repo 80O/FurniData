@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="petfood7_horseshoe" customparams="750,20,0" runtimeclass="com.fuse.agent.pets.FUSEPetFoodRuntime">
+    <interaction>
+      <stand/>
+    </interaction>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.0</height>
+    </dimensions>
+    <sprites>
+      <big>1</big>
+      <small>1</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+    </directions>
+    <notrecyclable/>
+  </roomitemdata>
+  <productdata>
+    <product>
+      <code>petfood7_horseshoe</code>
+      <name>petfood7_horseshoe name</name>
+      <text>petfood7_horseshoe desc</text>
+         <offers>
+            <offer type="pixel" activityPointType="101" credits="0" pixels="6"/>
+         </offers>
+		       <allowbundlepurchase/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="pets"/>
+  </metadata>
+</hofdata>

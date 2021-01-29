@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="eco_chair1">
+      <interaction>
+         <sit/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.6</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>eco_chair1</code>
+         <name>eco_chair1 name</name>
+         <text>eco_chair1 desc</text>
+         <parameter/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="chair"/>
+   </metadata>
+</hofdata>

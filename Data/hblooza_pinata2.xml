@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><!DOCTYPE hofdata SYSTEM "hofdata.dtd"><hofdata>
+  <roomitemdata class="hblooza_pinata2" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.CrackableRewardFurniturePurchaseProcessor" runtimeclass="com.sulake.habbo.roomengine.furni.PinataFurniture">
+    <interaction>
+      <stand/>
+    </interaction>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.000001</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>2</direction>
+    </directions>
+    <partcolors/>
+    <everyone-can-use/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+      <state id="3"/>
+      <state id="4"/>
+      <state id="5"/>
+      <state id="6"/>
+      <state id="7"/>
+      <state id="8"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.CrackableRewardFurniturePurchaseProcessor">
+    <product price="1">
+      <code>hblooza_pinata2</code>
+      <name>hblooza_pinata2 name</name>
+      <text>hblooza_pinata2 desc</text>
+      <parameter>{"rewardSet":"pinata2","incrementalHitAchievementName":"pinatawhacker","finalHitAchievementName":"pinatabreaker","target":"100"}</parameter>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

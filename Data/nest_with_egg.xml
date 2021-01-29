@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="nest_with_egg" customparams="8 nest_chick" runtimeclass="com.sulake.habbo.agent.pet.PetPackage">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.001</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <partcolors/>
+      <notrecyclable/>
+      <nottradeable/>
+      <states>
+         <state id="0"/>
+      </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetPackagePurchaseProcessor">
+      <product price="1">
+         <code>nest_with_egg</code>
+         <name>nest_with_egg name</name>
+         <text>nest_with_egg desc</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

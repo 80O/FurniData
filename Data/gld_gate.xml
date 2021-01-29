@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="gld_gate" runtimeclass="com.sulake.habbo.roomengine.furni.GuildGateFurniture" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.GuildCustomizedFurniturePurchaseProcessor">
+    <interaction>
+      <stand/>
+    </interaction>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.15</height>
+    </dimensions>
+    <sprites>
+      <big>15</big>
+      <small>15</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>0</direction>
+      <direction>4</direction>
+      <direction>6</direction>
+    </directions>
+    <partcolors/>
+    <notexportable/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.GuildCustomizedFurniturePurchaseProcessor">
+    <product price="5">
+      <code>gld_gate</code>
+      <name>gld_gate name</name>
+      <text>gld_gate desc</text>
+      <excludedfromdynamic/>
+       
+    </product>
+  </productdata>
+   <metadata>
+      <category name="gate"/>
+   </metadata>
+</hofdata>

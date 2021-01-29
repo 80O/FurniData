@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="sb_tile">
+    <interaction>
+      <stand/>
+    </interaction>
+    <stacking>
+      <stuff/>
+    </stacking>
+    <dimensions>
+      <x>2</x>
+      <y>2</y>
+      <height>0</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>2</direction>
+    </directions>
+    <partcolors/>
+    <states/>
+    <builders-club-compatible/>
+  </roomitemdata>
+  <productdata>
+    <product price="3">
+      <code>sb_tile</code>
+      <name>sb_tile name</name>
+      <text>sb_tile desc</text>
+         <excludedfromdynamic/>
+       <allowbundlepurchase/>
+    </product>
+      <product itemcount="6">
+         <code>deal_sbtile</code>
+         <name>deal_sbtile name</name>
+         <text>deal_sbtile desc</text>
+         <offers>
+            <offer credits="14" type="credit"/>
+         </offers>
+      </product>
+  </productdata>
+   <metadata>
+      <category name="rug"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <wallitemdata type="boutique_lampwall">
+    <isanimated/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+    </states>
+    <builders-club-compatible/>
+  </wallitemdata>
+  <productdata>
+    <product price="5">
+      <code>boutique_lampwall</code>
+      <name>boutique_lampwall name</name>
+      <text>boutique_lampwall desc</text>
+         <excludedfromdynamic/>
+       <allowbundlepurchase/>
+    </product>
+	  <product itemcount="4" price="16">
+          <code> deal_4boutiquelampwall</code>
+          <name> deal_4boutiquelampwall name</name>
+          <text> deal_4boutiquelampwall desc</text>
+       </product>
+  </productdata>
+  <metadata>
+    <category name="wall_decoration"/>
+  </metadata>
+</hofdata>

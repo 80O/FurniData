@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="traffic_light" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>2.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors colorid="3">
+         <layer>#FFFFFF</layer>
+         <layer>#E0337A</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <partcolors colorid="5">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <partcolors colorid="2">
+         <layer>#FFFFFF</layer>
+         <layer>#2B95E5</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <partcolors colorid="4">
+         <layer>#FFFFFF</layer>
+         <layer>#FFDD24</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <partcolors colorid="6">
+         <layer>#FFFFFF</layer>
+         <layer>#EF1D1D</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <partcolors colorid="1">
+         <layer>#FFFFFF</layer>
+         <layer>#47738B</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+      </states>
+    <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product colorid="3">
+         <code>a3 trafficlightpurple</code>
+         <name>Purple Traffic Light</name>
+         <text>Chill and wait your turn!</text>
+         <excludedfromdynamic/>
+         <offers>
+            <offer credits="15" type="credit"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="5">
+         <code>a5 trafficlightwhite</code>
+         <name>White Traffic Light</name>
+         <text>Chill and wait your turn!</text>
+         <excludedfromdynamic/>
+         <offers>
+            <offer credits="15" type="credit"/>
+            <offer credits="7" pixels="139" type="discount"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="2">
+         <code>a2 trafficlightblue</code>
+         <name>Blue Traffic Light</name>
+         <text>Chill and wait your turn!</text>
+         <excludedfromdynamic/>
+         <offers>
+            <offer credits="15" type="credit"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="4">
+         <code>a4 trafficlightyellow</code>
+         <name>Yellow Traffic Light</name>
+         <text>Chill and wait your turn!</text>
+         <excludedfromdynamic/>
+         <offers>
+            <offer credits="15" type="credit"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="6">
+         <code>a6 trafficlightred</code>
+         <name>Red Traffic Light</name>
+         <text>Chill and wait your turn!</text>
+         <excludedfromdynamic/>
+         <offers>
+            <offer credits="15" type="credit"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="1">
+         <code>a1 trafficlightsteel</code>
+         <name>Classic Traffic Light</name>
+         <text>Chill and wait your turn!</text>
+         <excludedfromdynamic/>
+         <offers>
+            <offer credits="15" type="credit"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="lighting"/>
+   </metadata>
+</hofdata>

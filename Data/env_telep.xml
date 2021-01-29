@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="env_telep" runtimeclass="com.fuse.projects.goldfish.custom_furni.TeleportStuffRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>4</big>
+         <small>4</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <notexportable/>
+      <everyone-can-use/>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+      <product price="1">
+         <code>env_telep</code>
+         <name>env_telep name</name>
+         <text>env_telep desc</text>
+         <parameter/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="teleport"/>
+   </metadata>
+</hofdata>

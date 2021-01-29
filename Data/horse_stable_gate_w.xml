@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="horse_stable_gate_w" runtimeclass="com.fuse.projects.goldfish.PrivateRoomDoor">
+    <interaction>
+      <stand/>
+    </interaction>
+    <dimensions>
+      <x>1</x>
+      <y>2</y>
+      <height>0</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>4</direction>
+      <direction>2</direction>
+    </directions>
+    <partcolors/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+    </states>
+  </roomitemdata>
+  <productdata>
+    <product price="4">
+      <code>horse_stable_gate_w</code>
+      <name>horse_stable_gate_w name</name>
+      <text>horse_stable_gate_w desc</text>
+       <allowbundlepurchase/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="gate"/>
+  </metadata>
+</hofdata>

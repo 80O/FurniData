@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="eco_light3"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.CeilingLightFurni">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>eco_light3</code>
+         <name>eco_light3 name</name>
+         <text>eco_light3 desc</text>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="lighting"/>
+   </metadata>
+</hofdata>

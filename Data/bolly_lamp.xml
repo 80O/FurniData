@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="bolly_lamp" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <stand/>
+      </interaction>
+      <stacking>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+    <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>bolly_lamp</code>
+         <name>bolly_lamp name</name>
+         <text>bolly_lamp desc</text>
+         <excludedfromdynamic/>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="lighting"/>
+   </metadata>
+</hofdata>

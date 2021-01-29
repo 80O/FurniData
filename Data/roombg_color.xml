@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><!DOCTYPE hofdata SYSTEM "hofdata.dtd"><hofdata>
+  <roomitemdata class="roombg_color" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.NotBundlablePurchaseProcessor" runtimeclass="com.sulake.habbo.roomengine.furni.RoomBackgroundColorFurniture">
+    <interaction>
+      <stand/>
+    </interaction>
+    <stacking>
+      <stuff/>
+    </stacking>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.45</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+    </directions>
+    <partcolors/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.NotBundlablePurchaseProcessor">
+    <product>
+      <code>roombg_color</code>
+      <name>roombg_color name</name>
+      <text>roombg_color desc</text>
+      <offers>
+        <offer type="pixel" pixels="20" activityPointType="104"/>
+      </offers>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

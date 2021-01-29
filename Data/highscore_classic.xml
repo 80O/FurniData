@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><!DOCTYPE hofdata SYSTEM "hofdata.dtd"><hofdata>
+  <roomitemdata class="highscore_classic" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.HighScoreFurniturePurchaseProcessor" runtimeclass="com.sulake.habbo.roomengine.furni.games.highscore.ClassicHighScoreFurniture">
+    <interaction>
+      <stand/>
+    </interaction>
+    <stacking>
+      <stuff/>
+    </stacking>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.65</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>0</direction>
+    </directions>
+    <partcolors colorid="1">
+      <layer>#FFD837</layer>
+      <layer>#FFFFFF</layer>
+    </partcolors>
+    <partcolors colorid="2">
+      <layer>#5DD9EB</layer>
+      <layer>#FFFFFF</layer>
+    </partcolors>
+    <partcolors colorid="3">
+      <layer>#D77761</layer>
+      <layer>#FFFFFF</layer>
+    </partcolors>
+    <partcolors colorid="4">
+      <layer>#D5D1EF</layer>
+      <layer>#FFFFFF</layer>
+    </partcolors>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.HighScoreFurniturePurchaseProcessor">
+    <product price="1" colorid="1">
+      <code>highscore_classic_alltime</code>
+      <name>highscore_classic_alltime name</name>
+      <text>highscore_classic_alltime desc</text>
+      <parameter>classic,alltime</parameter>
+    </product>
+    <product price="1" colorid="2">
+      <code>highscore_classic_daily</code>
+      <name>highscore_classic_daily name</name>
+      <text>highscore_classic_daily desc</text>
+      <parameter>classic,daily</parameter>
+    </product>
+    <product price="1" colorid="3">
+      <code>highscore_classic_weekly</code>
+      <name>highscore_classic_weekly name</name>
+      <text>highscore_classic_weekly desc</text>
+      <parameter>classic,weekly</parameter>
+    </product>
+    <product price="1" colorid="4">
+      <code>highscore_classic_monthly</code>
+      <name>highscore_classic_monthly name</name>
+      <text>highscore_classic_monthly desc</text>
+      <parameter>classic,monthly</parameter>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="games"/>
+  </metadata>
+</hofdata>

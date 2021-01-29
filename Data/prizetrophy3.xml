@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="prizetrophy3"
+                 specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TrophyPurchaseClass">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>6</direction>
+      </directions>
+      <partcolors colorid="3">
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+         <layer>#996600</layer>
+      </partcolors>
+      <partcolors colorid="2">
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors colorid="1">
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+         <layer>#FFDD3F</layer>
+      </partcolors>
+      <specialtype id="11"/>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TrophyPurchaseClass">
+      <product price="8" colorid="3">
+         <code>a0 prizetrophy3_b</code>
+         <name>Globe trophy</name>
+         <text>Breathtaking bronze</text>
+         <excludedfromdynamic/>
+      </product>
+      <product price="10" colorid="2">
+         <code>a0 prizetrophy3_s</code>
+         <name>Globe trophy</name>
+         <text>Shiny silver</text>
+         <excludedfromdynamic/>
+      </product>
+      <product price="12" colorid="1">
+         <code>a0 prizetrophy3_g</code>
+         <name>Globe trophy</name>
+         <text>Glittery gold</text>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="trophy"/>
+   </metadata>
+</hofdata>

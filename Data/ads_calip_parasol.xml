@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ads_calip_parasol"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>5</big>
+         <small>5</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>ads_calip_parasol</code>
+         <name>ads_calip_parasol name</name>
+         <text>ads_calip_parasol desc</text>
+      </product>
+   </productdata>
+   <aliasdata>
+      <alias name="ads_calip_parasol_cmp">
+         <description>calippo parasol with logo </description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="other"/>
+   </metadata>
+</hofdata>

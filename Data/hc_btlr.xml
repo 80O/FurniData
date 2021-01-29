@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="hc_btlr"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>2.0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="24"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product price="25">
+         <code>a0 hc_btlr</code>
+         <name>hc_btlr</name>
+         <text>hc_btlr</text>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="gift_pbank" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>2</direction>
+    </directions>
+    <partcolors/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+      <state id="3"/>
+    </states>
+    <builders-club-compatible/>
+  </roomitemdata>
+  <productdata>
+    <product price="1">
+      <code>gift_pbank</code>
+      <name>gift_pbank name</name>
+      <text>gift_pbank desc</text>
+         <excludedfromdynamic/>
+       <allowbundlepurchase/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

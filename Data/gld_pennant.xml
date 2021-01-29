@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="gld_pennant" runtimeclass="com.sulake.habbo.roomengine.furni.GuildCustomizedFurniture" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.GuildCustomizedFurniturePurchaseProcessor">
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+    </directions>
+    <partcolors/>
+	<notexportable/>
+	<specialtype id="17"/>
+    <states/>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.GuildCustomizedFurniturePurchaseProcessor">
+    <product price="5">
+      <code>gld_pennant</code>
+      <name>gld_pennant name</name>
+      <text>gld_pennant desc</text>
+      <excludedfromdynamic/>
+       
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="exe_globe"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1</height>
+      </dimensions>
+      <sprites>
+         <big>4</big>
+         <small>4</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <states>
+         <stateselection>
+            <state id="0"/>
+            <state id="2"/>
+            <state id="3"/>
+            <state id="4"/>
+            <state id="5"/>
+            <state id="6"/>
+            <state id="7"/>
+            <state id="8"/>
+         </stateselection>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>DEV exe_globe</code>
+         <name>exe_globe</name>
+         <text/>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="other"/>
+   </metadata>
+</hofdata>

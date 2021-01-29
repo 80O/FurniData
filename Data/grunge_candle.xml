@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="grunge_candle" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>6</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product>
+         <code>grunge_candle</code>
+         <name>grunge_candle</name>
+         <text/>
+         <excludedfromdynamic/>
+         <offers>
+            <offer credits="1" type="credit"/>
+            <offer credits="1" pixels="49" type="discount"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="lighting"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ktchn_gate" runtimeclass="com.fuse.projects.goldfish.PrivateRoomDoor">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>2</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>6</big>
+         <small>6</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+      <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>ktchn_gate</code>
+         <name>ktchn_gate name</name>
+         <text>ktchn_gate desc</text>
+         <parameter/>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="gate"/>
+   </metadata>
+</hofdata>

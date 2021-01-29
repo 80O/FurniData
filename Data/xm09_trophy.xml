@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="xm09_trophy"
+                 specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TrophyPurchaseClass">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <specialtype id="11"/>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TrophyPurchaseClass">
+      <product>
+         <code>xm09_trophy</code>
+         <name>xm09_trophy name</name>
+         <text>xm09_trophy desc</text>
+         <excludedfromdynamic/>
+         <offers>
+            <offer type="credit" credits="1"/>
+         </offers>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="trophy"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="bump_road"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <stand/>
+      </interaction>
+      <stacking>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>2</x>
+         <y>2</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+      <partcolors>
+         <layer>#FFFFFF</layer>
+         <layer>#626D8B</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+         <state id="3"/>
+      </states>
+    <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product>
+         <code>bump_road</code>
+         <name>bump_road name</name>
+         <text>bump_road desc</text>
+         <parameter/>
+         <excludedfromdynamic/>
+         <offers>
+            <offer type="discount" credits="1" pixels="89"/>
+         </offers>
+      </product>
+      <product itemcount="10">
+         <code>bump_road_deal10</code>
+         <name>bump_road_deal10 name</name>
+         <text>bump_road_deal10 desc</text>
+         <parameter/>
+         <offers>
+            <offer type="discount" credits="6" pixels="250"/>
+         </offers>
+      </product>
+      <product itemcount="15">
+         <code>bump_road_deal15</code>
+         <name>bump_road_deal15 name</name>
+         <text>bump_road_deal15 desc</text>
+         <parameter/>
+         <offers>
+            <offer type="discount" credits="10" pixels="375"/>
+         </offers>
+      </product>
+      <product itemcount="20">
+         <code>bump_road_deal20</code>
+         <name>bump_road_deal20 name</name>
+         <text>bump_road_deal20 desc</text>
+         <parameter/>
+         <offers>
+            <offer type="discount" credits="13" pixels="400"/>
+         </offers>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="rug"/>
+   </metadata>
+</hofdata>

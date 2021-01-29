@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ktchn_light" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <stand/>
+      </interaction>
+      <stacking>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>2</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+      <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>ktchn_light</code>
+         <name>ktchn_light name</name>
+         <text>ktchn_light desc</text>
+         <parameter/>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="lighting"/>
+   </metadata>
+</hofdata>

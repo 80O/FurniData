@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="greektrophy"
+                 specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TrophyPurchaseClass">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors colorid="3">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#996600</layer>
+      </partcolors>
+      <partcolors colorid="2">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#DDDDDD</layer>
+      </partcolors>
+      <partcolors colorid="1">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFDD3F</layer>
+      </partcolors>
+      <specialtype id="11"/>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TrophyPurchaseClass">
+      <product colorid="3" price="8">
+         <code>greektrophy_b</code>
+         <name>Greek trophy</name>
+         <text>Breathtaking bronze</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="2" price="10">
+         <code>greektrophy_s</code>
+         <name>Greek trophy</name>
+         <text>Shiny silver</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="1" price="12">
+         <code>greektrophy_g</code>
+         <name>Greek trophy</name>
+         <text>Glittery gold</text>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="trophy"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="water_bowl1" runtimeclass="com.fuse.agent.pets.FUSEPetWaterbowlRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetWaterBowlPurchaseClass">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+      </directions>
+      <partcolors colorid="1">
+         <layer>#ff3f3f</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors colorid="2">
+         <layer>#3fff3f</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors colorid="3">
+         <layer>#ffff00</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors colorid="4">
+         <layer>#0099ff</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors colorid="5">
+         <layer>#bf7f00</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+         <state id="3"/>
+         <state id="4"/>
+         <state id="5"/>
+      </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetWaterBowlPurchaseClass">
+      <product colorid="1" price="2">
+         <code>waterbowl1_red</code>
+         <name>waterbowl1_red name</name>
+         <text>waterbowl1_red desc</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="2" price="2">
+         <code>water_bowl1_green</code>
+         <name>water_bowl1_green name</name>
+         <text>water_bowl1_green desc</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="3" price="2">
+         <code>water_bowl1_yellow</code>
+         <name>water_bowl1_yellow name</name>
+         <text>water_bowl1_yellow desc</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="4" price="2">
+         <code>waterbowl1_blue</code>
+         <name>waterbowl1_blue name</name>
+         <text>waterbowl1_blue desc</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="5" price="2">
+         <code>water_bowl1_brown</code>
+         <name>water_bowl1_brown name</name>
+         <text>water_bowl1_brown desc</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

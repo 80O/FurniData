@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <wallitemdata type="school_wall">
+    <states/>
+    <builders-club-compatible/>
+  </wallitemdata>
+  <productdata>
+    <product price="3">
+      <code>school_wall</code>
+      <name>school_wall name</name>
+      <text>school_wall desc</text>
+         <excludedfromdynamic/>
+       <allowbundlepurchase/>
+    </product>
+	  <product itemcount="10" price="20">
+          <code>deal_10schoolwall</code>
+          <name>deal_10schoolwall name</name>
+          <text>deal_10schoolwall desc</text>
+       </product>
+	  <product itemcount="20" price="35">
+          <code>deal_20schoolwall</code>
+          <name>deal_20schoolwall name</name>
+          <text>deal_20schoolwall desc</text>
+       </product>
+  </productdata>
+   <metadata>
+      <category name="wall_decoration"/>
+   </metadata>
+</hofdata>

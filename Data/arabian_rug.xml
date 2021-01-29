@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="arabian_rug">
+      <interaction>
+         <stand/>
+      </interaction>
+      <stacking>
+         <items/>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>3</x>
+         <y>5</y>
+         <height>0</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+    <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product>
+         <code>arabian_rug</code>
+         <name>arabian_rug_name</name>
+         <text>arabian_rug_desc</text>
+         <parameter/>
+         <excludedfromdynamic/>
+         <offers>
+            <offer credits="5" type="credit"/>
+            <offer credits="3" pixels="99" type="discount"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="rug"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="horse_stable_fence" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+    <dimensions>
+      <x>1</x>
+      <y>2</y>
+      <height>1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>4</direction>
+      <direction>2</direction>
+    </directions>
+    <partcolors/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+    </states>
+  </roomitemdata>
+  <productdata>
+    <product price="3">
+      <code>horse_stable_fence</code>
+      <name>horse_stable_fence name</name>
+      <text>horse_stable_fence desc</text>
+       <allowbundlepurchase/>
+    </product>
+	  <product itemcount="10" price="20">
+          <code>deal_10stablefence</code>
+          <name>deal_10stablefence name</name>
+          <text>deal_10stablefence desc</text>
+       </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

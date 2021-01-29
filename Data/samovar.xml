@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="samovar"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.5625</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="1"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product price="5">
+         <code>a0 samovar</code>
+         <name>Russian Samovar</name>
+         <text>Click for a refreshing cuppa</text>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

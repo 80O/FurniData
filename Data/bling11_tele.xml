@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="bling11_tele" customparams="default_direction=2" runtimeclass="com.fuse.projects.goldfish.custom_furni.TeleportStuffRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.15</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <notexportable/>
+      <everyone-can-use/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+      </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+      <product price="1">
+         <code>bling11_tele</code>
+         <name>bling11_tele name</name>
+         <text>bling11_tele desc</text>
+         <excludedfromdynamic/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="teleport"/>
+   </metadata>
+</hofdata>

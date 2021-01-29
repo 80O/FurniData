@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="anna_div_gate" runtimeclass="com.fuse.projects.goldfish.PrivateRoomDoor">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <partcolors colorid="1">
+         <layer>#FFFFFF</layer>
+         <layer>#ead844</layer>
+      </partcolors>
+      <partcolors colorid="2">
+         <layer>#FFFFFF</layer>
+         <layer>#e34a83</layer>
+      </partcolors>
+      <partcolors colorid="3">
+         <layer>#FFFFFF</layer>
+         <layer>#95e24c</layer>
+      </partcolors>
+      <partcolors colorid="4">
+         <layer>#FFFFFF</layer>
+         <layer>#4ccce2</layer>
+      </partcolors>
+      <partcolors colorid="5">
+         <layer>#FFFFFF</layer>
+         <layer>#9466d5</layer>
+      </partcolors>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+      <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product colorid="1" price="1">
+         <code>anna_div_gate_yellow</code>
+         <name>anna_div_gate_yellow name</name>
+         <text>anna_div_gate_yellow desc</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="2" price="1">
+         <code>anna_div_gate_red</code>
+         <name>anna_div_gate_red name</name>
+         <text>anna_div_gate_red desc</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="3" price="1">
+         <code>anna_div_gate_green</code>
+         <name>anna_div_gate_green name</name>
+         <text>anna_div_gate_green desc</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="4" price="1">
+         <code>anna_div_gate_blue</code>
+         <name>anna_div_gate_blue name</name>
+         <text>anna_div_gate_blue desc</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="5" price="1">
+         <code>anna_div_gate_purple</code>
+         <name>anna_div_gate_purple name</name>
+         <text>anna_div_gate_purple desc</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="gate"/>
+   </metadata>
+</hofdata>

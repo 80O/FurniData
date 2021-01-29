@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="hc_tv" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <sit/>
+      </interaction>
+      <dimensions>
+         <x>2</x>
+         <y>1</y>
+         <height>1.3</height>
+      </dimensions>
+      <sprites>
+         <big>5</big>
+         <small>5</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <everyone-can-use/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product price="5">
+         <code>a0 clubtv</code>
+         <name>Club Tv</name>
+         <text>Club Tv</text>
+         <parameter>1</parameter>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="other"/>
+   </metadata>
+</hofdata>

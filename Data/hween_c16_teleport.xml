@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><!DOCTYPE hofdata SYSTEM "hofdata.dtd"><hofdata>
+  <roomitemdata class="hween_c16_teleport" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor" runtimeclass="com.fuse.projects.goldfish.custom_furni.TeleportStuffRuntime">
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.0</height>
+    </dimensions>
+    <sprites>
+      <big>4</big>
+      <small>4</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>4</direction>
+    </directions>
+    <notexportable/>
+    <specialtype id="1"/>
+    <everyone-can-use/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+    <product price="1">
+      <code>hween_c16_teleport</code>
+      <name>hween_c16_teleport name</name>
+      <text>hween_c16_teleport desc</text>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="teleport"/>
+  </metadata>
+</hofdata>

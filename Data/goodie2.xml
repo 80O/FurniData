@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="goodie2" customparams="0,0,250" runtimeclass="com.fuse.agent.pets.FUSEPetGoodieRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetGoodiePurchaseClass">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+      </directions>
+      <partcolors>
+         <layer>0</layer>
+      </partcolors>
+      <notrecyclable/>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetGoodiePurchaseClass">
+      <product price="1">
+         <code>A0 petgoodie2</code>
+         <name>Chocolate Mouse</name>
+         <text>For gourmet kittens</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

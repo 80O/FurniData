@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ads_oc_soda"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>4</big>
+         <small>4</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="42"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>ads_oc_soda</code>
+         <name>ads_oc_soda</name>
+         <text>ads_oc_soda desc</text>
+      </product>
+   </productdata>
+   <aliasdata>
+      <alias name="ads_oc_soda_cmp">
+         <description>Orange Crush campaign furni</description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

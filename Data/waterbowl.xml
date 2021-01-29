@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="waterbowl" runtimeclass="com.fuse.agent.pets.FUSEPetWaterbowlRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetWaterBowlPurchaseClass">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.1</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+      </directions>
+      <partcolors colorid="3">
+         <layer>#ffff00</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors colorid="5">
+         <layer>#bf7f00</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors colorid="2">
+         <layer>#3fff3f</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors colorid="4">
+         <layer>#0099ff</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+      <partcolors colorid="1">
+         <layer>#ff3f3f</layer>
+         <layer>#ffffff</layer>
+         <layer>#ffffff</layer>
+      </partcolors>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetWaterBowlPurchaseClass">
+      <product colorid="3" price="2">
+         <code>A0 waterbowlyellow</code>
+         <name>Yellow Water Bowl</name>
+         <text>Aqua unlimited</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="5" price="2">
+         <code>A0 waterbowlbrown</code>
+         <name>Brown Water Bowl</name>
+         <text>Aqua unlimited</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="2" price="2">
+         <code>A0 waterbowlgreen</code>
+         <name>Green Water Bowl</name>
+         <text>Aqua unlimited</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="4" price="2">
+         <code>A0 waterbowlblue</code>
+         <name>Blue Water Bowl</name>
+         <text>Aqua unlimited</text>
+         <allowbundlepurchase/>
+    </product>
+      <product colorid="1" price="2">
+         <code>A0 waterbowlred</code>
+         <name>Red Water Bowl</name>
+         <text>Aqua unlimited</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

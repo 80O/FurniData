@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="gothic_bed" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <sit/>
+      </interaction>
+      <dimensions>
+         <x>2</x>
+         <y>3</y>
+         <height>1.6</height>
+      </dimensions>
+      <sprites>
+         <big>10</big>
+         <small>10</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+    <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>gothic_bed</code>
+         <name>gothic_bed name</name>
+         <text>gothic_bed desc</text>
+         <excludedfromdynamic/>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="bed"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <wallitemdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.RoomDimmerPurchaseProcessor" type="roomdimmer">
+      <isanimated/>
+      <notexportable/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </wallitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.RoomDimmerPurchaseProcessor">
+      <product>
+         <code>a0 roomdimmer</code>
+         <name>Room Dimmer</name>
+         <text>Room Dimmer</text>
+         <offers>
+            <offer credits="8" type="credit"/>
+            <offer credits="9" pixels="139" type="discount"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="lighting"/>
+   </metadata>
+</hofdata>

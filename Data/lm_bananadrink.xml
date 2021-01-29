@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="lm_bananadrink" runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors/>
+    <notrecyclable/>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="66"/>
+      </drinks>
+<builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>lm_bananadrink</code>
+         <name>lm_bananadrink name</name>
+         <text>lm_bananadrink desc</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

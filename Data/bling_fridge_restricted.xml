@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="bling_fridge_restricted" runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="50"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>bling_fridge_restricted</code>
+         <name>bling_fridge_restricted name</name>
+         <text>bling_fridge_restricted desc</text>
+         <parameter/>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

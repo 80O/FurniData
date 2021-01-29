@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="js_bling_bed" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+    <interaction>
+      <sit/>
+    </interaction>
+    <dimensions>
+      <x>2</x>
+      <y>3</y>
+      <height>1.6</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>4</direction>
+    </directions>
+    <partcolors/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+    </states>
+    <builders-club-compatible/>
+  </roomitemdata>
+  <productdata>
+    <product price="1">
+      <code>js_bling_bed</code>
+      <name>js_bling_bed name</name>
+      <text>js_bling_bed desc</text>
+         <excludedfromdynamic/>
+      <allowbundlepurchase/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="bed"/>
+  </metadata>
+</hofdata>

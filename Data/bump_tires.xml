@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="bump_tires"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <stacking>
+         <items/>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.7</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+      </states>
+    <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product>
+         <code>bump_tires</code>
+         <name>bump_tires name</name>
+         <text>bump_tires desc</text>
+         <parameter/>
+         <excludedfromdynamic/>
+         <offers>
+            <offer type="discount" credits="1" pixels="89"/>
+         </offers>
+      </product>
+      <product itemcount="3">
+         <code>bump_tires_deal3</code>
+         <name>bump_tires_deal3 name</name>
+         <text>bump_tires_deal3 desc</text>
+         <parameter/>
+         <offers>
+            <offer type="discount" credits="3" pixels="250"/>
+         </offers>
+      </product>
+      <product itemcount="5">
+         <code>bump_tires_deal5</code>
+         <name>bump_tires_deal5 name</name>
+         <text>bump_tires_deal5 desc</text>
+         <parameter/>
+         <offers>
+            <offer type="discount" credits="5" pixels="275"/>
+         </offers>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="table"/>
+   </metadata>
+</hofdata>

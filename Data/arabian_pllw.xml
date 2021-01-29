@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="arabian_pllw">
+      <interaction>
+         <sit/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+    <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product>
+         <code>arabian_pllw</code>
+         <name>arabian_pllw_name</name>
+         <text>arabian_pllw_desc</text>
+         <parameter/>
+         <excludedfromdynamic/>
+         <offers>
+            <offer credits="5" type="credit"/>
+            <offer credits="2" pixels="99" type="discount"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="chair"/>
+   </metadata>
+</hofdata>

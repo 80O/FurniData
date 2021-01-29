@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="rare_beehive_bulb"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>5</big>
+         <small>5</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <partcolors>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#55C4DE</layer>
+      </partcolors>
+      <partcolors colorid="1">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FF4C47</layer>
+      </partcolors>
+      <partcolors colorid="2">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFC307</layer>
+      </partcolors>
+      <partcolors colorid="3">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#9c0247</layer>
+      </partcolors>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product price="5">
+         <code>A0 rarebeehiveblue</code>
+         <name>Blue Amber Lamp</name>
+         <text>No bees were harmed during the production.</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="1" price="5">
+         <code>A0 rarebeehivered</code>
+         <name>Red Amber Lamp</name>
+         <text>No bees were harmed during the production.</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="2" price="5">
+         <code>A0 rarebeehiveyellow</code>
+         <name>Yellow Amber Lamp</name>
+         <text>No bees were harmed during the production.</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="3" price="1">
+         <code>habbo15_beehive</code>
+         <name>habbo15_beehive name</name>
+         <text>habbo15_beehive desc</text>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="lighting"/>
+   </metadata>
+</hofdata>

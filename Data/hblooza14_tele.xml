@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><!DOCTYPE hofdata SYSTEM "hofdata.dtd"><hofdata>
+  <roomitemdata class="hblooza14_tele" runtimeclass="com.fuse.projects.goldfish.custom_furni.TeleportStuffRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>2</direction>
+      <direction>4</direction>
+      <direction>6</direction>
+    </directions>
+    <notexportable/>
+    <everyone-can-use/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+    <product price="1">
+      <code>hblooza14_tele</code>
+      <name>hblooza14_tele name</name>
+      <text>hblooza14_tele desc</text>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="teleport"/>
+  </metadata>
+</hofdata>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="nest_dragon" customparams="12,14" runtimeclass="com.fuse.agent.pets.FUSEPetNestRuntime">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.8</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors/>
+      <states/>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>nest_dragon</code>
+         <name>nest_dragon name</name>
+         <text>nest_dragon desc</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

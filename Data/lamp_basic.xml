@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="lamp_basic" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>4</big>
+         <small>4</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>6</direction>
+      </directions>
+      <partcolors>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+      <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="3">
+         <code>A1 BLMP</code>
+         <name>Pura lamp</name>
+         <text>Switch on the atmosphere with this sophisticated light</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="lighting"/>
+   </metadata>
+</hofdata>

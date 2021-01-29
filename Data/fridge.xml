@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="fridge" runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="3"/>
+         <drink id="4"/>
+         <drink id="5"/>
+         <drink id="6"/>
+      </drinks>
+      <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="6">
+         <code>A2 FDG</code>
+         <name>Pura refridgerator</name>
+         <text>Keep cool with a chilled snack or drink</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

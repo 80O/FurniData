@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><!DOCTYPE hofdata SYSTEM "hofdata.dtd"><hofdata>
+  <roomitemdata class="hblooza_kiosk" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor" runtimeclass="com.sulake.habbo.roomengine.furni.HandItemProviderFurni">
+    <dimensions>
+      <x>1</x>
+      <y>2</y>
+      <height>1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>2</direction>
+     </directions>
+    <partcolors/>
+    <notrecyclable/>
+    <notexportable/>
+    <notgroupable/>
+    <everyone-can-use/>
+    <drinks>
+      <drink id="1"/>
+      <drink id="3"/>
+      <drink id="19"/>
+      <drink id="31"/>
+      <drink id="36"/>
+      <drink id="38"/>
+      <drink id="63"/>
+      <drink id="81"/>
+      <drink id="1036"/>
+    </drinks>
+    <limitededition/>
+    <editionsizemultiplier>1</editionsizemultiplier>
+  </roomitemdata>
+  <productdata  specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor">
+    <product price="1">
+      <code>hblooza_kiosk</code>
+      <name>hblooza_kiosk name</name>
+      <text>hblooza_kiosk desc</text>
+      <excludedfromdynamic/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

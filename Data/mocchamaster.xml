@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="mocchamaster"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>2.0</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="8"/>
+         <drink id="9"/>
+         <drink id="10"/>
+         <drink id="11"/>
+         <drink id="12"/>
+         <drink id="13"/>
+         <drink id="14"/>
+         <drink id="15"/>
+         <drink id="16"/>
+         <drink id="17"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product price="25">
+         <code>a0 mocchamaster</code>
+         <name>Mochamaster</name>
+         <text>Wake up and smell it!</text>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

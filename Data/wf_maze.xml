@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="wf_maze"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+      <partcolors/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+         <state id="3"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>wf_maze</code>
+         <name>wf_maze name</name>
+         <text>wf_maze desc</text>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="wired"/>
+   </metadata>
+</hofdata>

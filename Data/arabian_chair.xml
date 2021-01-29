@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="arabian_chair">
+      <interaction>
+         <sit/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.3</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+    <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="5">
+         <code>arabian_chair</code>
+         <name>arabian_chair_name</name>
+         <text>arabian_chair_desc</text>
+         <parameter/>
+         <excludedfromdynamic/>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="chair"/>
+   </metadata>
+</hofdata>

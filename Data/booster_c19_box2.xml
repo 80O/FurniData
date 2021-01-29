@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="booster_c19_box2" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.CrackableRewardFurniturePurchaseProcessor" runtimeclass="com.sulake.habbo.roomengine.furni.CrackableInventoryProductRewardFurniture">
+    <stacking>
+      <stuff/>
+    </stacking>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.8</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+    </directions>
+    <partcolors/>
+    <specialtype id="1"/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.CrackableRewardFurniturePurchaseProcessor">
+    <product price="1">
+      <code>booster_c19_box2</code>
+      <name>booster_c19_box2 name</name>
+      <text>booster_c19_box2 desc</text>
+      <parameter>{"rewardSet":"booster19_1_red", "target":"1"}</parameter>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

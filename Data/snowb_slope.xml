@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="snowb_slope" customparams="1.2,97,97,0,0,4" runtimeclass="com.sulake.habbo.roomengine.furni.SnowboardSlopeFurniture">
+    <interaction>
+      <stand/>
+    </interaction>
+    <stacking>
+      <stuff/>
+    </stacking>
+    <dimensions>
+      <x>2</x>
+      <y>2</y>
+      <height>0</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>4</direction>
+      <direction>2</direction>
+    </directions>
+    <partcolors/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+      <state id="3"/>
+      <state id="4"/>
+      <state id="5"/>
+      <state id="6"/>
+      <state id="7"/>
+    </states>
+    <builders-club-compatible/>
+  </roomitemdata>
+  <productdata>
+    <product price="5">
+      <code>snowb_slope</code>
+      <name>snowb_slope name</name>
+      <text>snowb_slope desc</text>
+       <allowbundlepurchase/>
+    </product>
+	<product itemcount="8" price="25">
+          <code>deal_8snowbslope</code>
+          <name>deal_8snowbslope name</name>
+          <text>deal_8snowbslope desc</text>
+       </product>
+	<product itemcount="16" price="45">
+          <code>deal_16snowbslope</code>
+          <name>deal_16snowbslope name</name>
+          <text>deal_16snowbslope desc</text>
+       </product>
+	<product itemcount="32" price="80">
+          <code>deal_32snowbslope</code>
+          <name>deal_32snowbslope name</name>
+          <text>deal_32snowbslope desc</text>
+       </product>
+	<product itemcount="64" price="145">
+          <code>deal_64snowbslope</code>
+          <name>deal_64snowbslope name</name>
+          <text>deal_64snowbslope desc</text>
+       </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

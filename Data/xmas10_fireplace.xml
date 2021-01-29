@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="xmas10_fireplace"
+                 specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor"
+                 customparams="ha,ha-1006,ha-1006"
+                 runtimeclass="com.fuse.projects.goldfish.custom_furni.SwitchClothingTeleportFurniture">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors/>
+      <notexportable/>
+      <everyone-can-use/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+      </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+      <product price="1">
+         <code>xmas10_fireplace</code>
+         <name>xmas10_fireplace name</name>
+         <text>xmas10_fireplace desc</text>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="teleport"/>
+   </metadata>
+</hofdata>

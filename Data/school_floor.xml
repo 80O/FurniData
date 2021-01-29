@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="school_floor">
+    <interaction>
+      <stand/>
+    </interaction>
+    <stacking>
+      <stuff/>
+    </stacking>
+    <dimensions>
+      <x>2</x>
+      <y>2</y>
+      <height>0.001</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+    </directions>
+    <partcolors/>
+    <states/>
+    <builders-club-compatible/>
+  </roomitemdata>
+  <productdata>
+    <product price="3">
+      <code>school_floor</code>
+      <name>school_floor name</name>
+      <text>school_floor desc</text>
+         <excludedfromdynamic/>
+       <allowbundlepurchase/>
+    </product>
+	  <product itemcount="10" price="20">
+          <code>deal_10schoolfloor</code>
+          <name>deal_10schoolfloor name</name>
+          <text>deal_10schoolfloor desc</text>
+       </product>
+	  <product itemcount="20" price="35">
+          <code>deal_20schoolfloor</code>
+          <name>deal_20schoolfloor name</name>
+          <text>deal_20schoolfloor desc</text>
+       </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="country_ditch" runtimeclass="com.fuse.projects.goldfish.PrivateRoomDoor">
+      <dimensions>
+         <x>1</x>
+         <y>2</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+      <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>country_ditch</code>
+         <name>country_ditch</name>
+         <text>country_ditch</text>
+         <parameter/>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="gate"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="bath" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <sit/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>2</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>10</big>
+         <small>10</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+      <everyone-can-use/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+      <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="6">
+         <code>A2 AMME</code>
+         <name>Bubble Bath</name>
+         <text>The ultimate in pampering</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <aliasdata>
+      <alias name="bath_cola">
+         <description>TEST campaign for imaginary fizzy drink company</description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="chair"/>
+   </metadata>
+</hofdata>
+

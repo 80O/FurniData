@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="hc_rllr" customparams="2"
+                 runtimeclass="com.fuse.queue_system.queue_place.HabboQueueStuffRuntime">
+      <interaction>
+         <stand/>
+      </interaction>
+      <stacking>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.45</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+      <partcolors>
+         <layer>0</layer>
+         <layer>0</layer>
+         <layer>0</layer>
+      </partcolors>
+   </roomitemdata>
+   <productdata>
+      <product price="25">
+         <code>a0 hc_rllr</code>
+         <name>HC Roller</name>
+         <text>HC Roller Description</text>
+         <parameter>1</parameter>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="roller"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="bar_polyfon" runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="1"/>
+         <drink id="2"/>
+      </drinks>
+      <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product>
+         <code>A2 BAP</code>
+         <name>Mini-bar</name>
+         <text>You naughty Habbo!</text>
+         <offers>
+            <offer credits="5" pixels="0" type="credit"/>
+            <offer credits="3" pixels="99" type="discount"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

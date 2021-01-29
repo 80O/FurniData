@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ads_calip_tele"
+                 specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor"
+                 runtimeclass="com.fuse.projects.goldfish.custom_furni.TeleportStuffRuntime">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <notexportable/>
+      <everyone-can-use/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+      </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+      <product>
+         <code>ads_calip_tele</code>
+         <name>ads_calip_tele name</name>
+         <text>ads_calip_tele text</text>
+         <offers>
+            <offer type="credit" credits="1"/>
+         </offers>
+      </product>
+   </productdata>
+   <aliasdata>
+      <alias name="ads_calip_telecmp">
+         <description>Green toilet teleport with Calippo logo branding</description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="teleport"/>
+   </metadata>
+</hofdata>

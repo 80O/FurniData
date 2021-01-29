@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="hween11_punch" runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+    <interaction/>
+    <stacking/>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+    </directions>
+    <partcolors/>
+    <everyone-can-use/>
+    <drinks>
+         <drink id="34"/>
+         <drink id="58"/>
+         <drink id="29"/>
+	</drinks>
+  </roomitemdata>
+  <productdata>
+    <product price="6">
+      <code>hween11_punch</code>
+      <name>hween11_punch name</name>
+      <text>hween11_punch desc</text>
+       <allowbundlepurchase/>
+    </product>
+  </productdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

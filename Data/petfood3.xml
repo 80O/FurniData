@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="petfood3" customparams="325,10,0" runtimeclass="com.fuse.agent.pets.FUSEPetFoodRuntime">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+      </directions>
+      <partcolors>
+         <layer>0</layer>
+         <layer>0</layer>
+         <layer>0</layer>
+      </partcolors>
+      <notrecyclable/>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>A0 petfood3</code>
+         <name>Cabbage</name>
+         <text>Health food for pets</text>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

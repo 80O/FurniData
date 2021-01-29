@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ads_chups"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <nottradeable/>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="48"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>ads_chups</code>
+         <name>ads_chups name</name>
+         <text>ads_chups desc</text>
+      </product>
+   </productdata>
+   <aliasdata>
+      <alias name="ads_chups_camp">
+         <description>campaign version of ads_chups</description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="qt_xm10_nest" runtimeclass="com.fuse.agent.pets.FUSEPetNestRuntime">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.2</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <nottradeable/>
+   </roomitemdata>
+   <productdata>
+      <product>
+         <code>qt_xm10_nest</code>
+         <name>qt_xm10_nest</name>
+         <text>qt_xm10_nest</text>
+         <excludedfromdynamic/>
+         <offers>
+            <offer type="pixel" activityPointType="1" credits="0" pixels="15"/>
+         </offers>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

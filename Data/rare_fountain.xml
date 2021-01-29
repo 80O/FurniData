@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="rare_fountain"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>3</big>
+         <small>3</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <partcolors>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FF6666</layer>
+      </partcolors>
+      <partcolors colorid="1">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <partcolors colorid="2">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#B8CF00</layer>
+      </partcolors>
+      <partcolors colorid="3">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#59CCCC</layer>
+      </partcolors>
+      <partcolors colorid="4">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#9c0247</layer>
+      </partcolors>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product colorid="4" price="1">
+         <code>habbo15_fountain</code>
+         <name>habbo15_fountain name</name>
+         <text>habbo15_fountain desc</text>
+         <excludedfromdynamic/>
+      </product>
+      <product price="5">
+         <code>A0 rarefountainpink</code>
+         <name>Granite Fountain</name>
+         <text>Lounge Oasis</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="1" price="5">
+         <code>A0 rarefountaingrey</code>
+         <name>Classy Fountain</name>
+         <text>Lounge Oasis</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="2" price="5">
+         <code>A0 rarefountaingreen</code>
+         <name>Bird Bath (green)</name>
+         <text>For our feathered friends</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="3" price="5">
+         <code>A0 rarefountainblue</code>
+         <name>Blue Kimberlite Fountain</name>
+         <text>Lounge Oasis</text>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="other"/>
+   </metadata>
+</hofdata>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ads_idol_trax"
+                 specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.SoundMachinePurchaseProcessor"
+                 customparams="4"
+                 runtimeclass="com.fuse.projects.goldfish.custom_furni.SoundMachineRuntime">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <notrecyclable/>
+      <nottradeable/>
+      <notexportable/>
+      <notgroupable/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.SoundMachinePurchaseProcessor">
+      <product price="1">
+         <code>ads_idol_trax</code>
+         <name>ads_idol_trax name</name>
+         <text>description</text>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="music"/>
+   </metadata>
+</hofdata>

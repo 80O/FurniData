@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><!DOCTYPE hofdata SYSTEM "hofdata.dtd"><hofdata>
+  <roomitemdata class="exe_drinks_cabinet" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor" runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+    <dimensions>
+      <x>2</x>
+      <y>1</y>
+      <height>1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>4</direction>
+    </directions>
+    <partcolors/>
+    <notrecyclable/>
+    <notexportable/>
+    <notgroupable/>
+    <everyone-can-use/>
+    <drinks>
+      <drink id="40"/>
+    </drinks>
+    <limitededition/>
+    <editionsizemultiplier>2</editionsizemultiplier>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor">
+    <product price="1">
+      <code>exe_drinks_cabinet</code>
+      <name>exe_drinks_cabinet name</name>
+      <text>exe_drinks_cabinet desc</text>
+      <excludedfromdynamic/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

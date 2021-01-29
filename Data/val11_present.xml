@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="val11_present" runtimeclass="com.sulake.habbo.agent.pet.ViralPetPackage"
+                 customparams="11 nest_frog PET05">
+      <stacking>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.2</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <partcolors/>
+      <notrecyclable/>
+      <nottradeable/>
+      <notexportable/>
+      <notgroupable/>
+      <specialtype id="9"/>
+      <states>
+         <state id="0"/>
+      </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetPackagePurchaseProcessor">
+      <product price="1">
+         <code>val11_present</code>
+         <name>val11_present name</name>
+         <text>val11_present desc</text>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

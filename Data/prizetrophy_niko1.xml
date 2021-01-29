@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="prizetrophy_niko1"
+                 specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.NikoTrophyPurchaseProcessor">
+    <dimensions>
+      <x>1</x>
+      <y>2</y>
+      <height>1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>2</direction>
+    </directions>
+    <partcolors/>
+      <specialtype id="11"/>
+    <states>
+      <state id="0"/>
+    </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.NikoTrophyPurchaseProcessor">
+    <product price="1">
+      <code>prizetrophy_niko1</code>
+      <name>prizetrophy_niko1 name</name>
+      <text>prizetrophy_niko1 desc</text>
+         <excludedfromdynamic/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="trophy"/>
+  </metadata>
+</hofdata>

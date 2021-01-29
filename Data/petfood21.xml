@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="petfood21" customparams="100,10,0 1,26,28" runtimeclass="com.fuse.agent.pets.FUSEPetFoodRuntime">
+      <interaction>
+         <stand/>
+      </interaction>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.0</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+      </directions>
+      <partcolors>
+         <layer>0</layer>
+      </partcolors>
+      <notrecyclable/>
+      <nottradeable/>
+   </roomitemdata>
+   <productdata>
+      <product>
+         <code>petfood21</code>
+         <name>petfood21 name</name>
+         <text>petfood21 desc</text>
+         <offers>
+            <offer pixels="100" type="pixel"/>
+         </offers>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="pets"/>
+   </metadata>
+</hofdata>

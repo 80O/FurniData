@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><!DOCTYPE hofdata SYSTEM "hofdata.dtd"><hofdata>
+  <roomitemdata class="easter14_teleport" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor" runtimeclass="com.fuse.projects.goldfish.custom_furni.TeleportStuffRuntime">
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>4</direction>
+    </directions>
+    <partcolors/>
+    <notexportable/>
+    <everyone-can-use/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.TeleportPurchaseProcessor">
+    <product price="1">
+      <code>easter14_teleport</code>
+      <name>easter14_teleport name</name>
+      <text>easter14_teleport desc</text>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="teleport"/>
+  </metadata>
+</hofdata>

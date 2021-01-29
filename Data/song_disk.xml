@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="song_disk" customparams="song disc"
+                 runtimeclass="com.fuse.projects.goldfish.sound_machine.SongDiscRuntime"
+                 specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.SongDiscPurchaseProcessor">
+      <stacking>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.15</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <notrecyclable/>
+      <notexportable/>
+      <notgroupable/>
+      <specialtype id="8"/>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.SongDiscPurchaseProcessor">
+      <product price="1">
+         <code>song_disk</code>
+         <name>Song disc</name>
+         <text>Vital configuration for burning songs. Do not modify or put on any catalog page!</text>
+         <parameter/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="music"/>
+   </metadata>
+</hofdata>

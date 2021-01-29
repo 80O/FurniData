@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <wallitemdata type="horse_stable_wall">
+    <isanimated/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+      <state id="3"/>
+      <state id="4"/>
+    </states>
+  </wallitemdata>
+  <productdata>
+    <product>
+      <code>horse_stable_wall</code>
+      <name>horse_stable_wall name</name>
+      <text>horse_stable_wall desc</text>
+         <offers>
+            <offer type="pixel" activityPointType="101" credits="0" pixels="6"/>
+         </offers>
+       <allowbundlepurchase/>
+    </product>
+	  <product itemcount="4" price="9">
+          <code>deal_stablewall</code>
+          <name>deal_stablewall name</name>
+          <text>deal_stablewall desc</text>
+       </product>
+  </productdata>
+  <metadata>
+    <category name="wall_decoration"/>
+  </metadata>
+</hofdata>

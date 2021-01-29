@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="rare_parasol"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>4</big>
+         <small>4</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+      </directions>
+      <partcolors colorid="3">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#D47FFF</layer>
+      </partcolors>
+      <partcolors colorid="2">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FF8F61</layer>
+      </partcolors>
+      <partcolors colorid="1">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFF11</layer>
+      </partcolors>
+      <partcolors colorid="0">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#9EFF1C</layer>
+      </partcolors>
+      <partcolors colorid="4">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#9c0247</layer>
+      </partcolors>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata>
+      <product colorid="4" price="1">
+         <code>habbo15_parasol</code>
+         <name>habbo15_parasol name</name>
+         <text>habbo15_parasol desc</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="3" price="5">
+         <code>A0 rareparasolviolet</code>
+         <name>Violet Parasol</name>
+         <text>Sun! Sun! Sun!</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="2" price="5">
+         <code>A0 rareparasolbrown</code>
+         <name>Orange Parasol</name>
+         <text>Sun! Sun! Sun!</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="1" price="5">
+         <code>A0 rareparasolyellow</code>
+         <name>Yellow Parasol</name>
+         <text>Sun! Sun! Sun!</text>
+         <excludedfromdynamic/>
+      </product>
+      <product colorid="0" price="5">
+         <code>A0 rareparasolgreen</code>
+         <name>Green Parasol</name>
+         <text>Sun! Sun! Sun!</text>
+         <excludedfromdynamic/>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="other"/>
+   </metadata>
+</hofdata>

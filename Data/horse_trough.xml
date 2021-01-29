@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="horse_trough" runtimeclass="com.fuse.agent.pets.LargePetWaterbowlRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetWaterBowlPurchaseClass">
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>4</direction>
+    </directions>
+    <partcolors/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+      <state id="3"/>
+      <state id="4"/>
+      <state id="5"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.PetWaterBowlPurchaseClass">
+    <product price="1">
+      <code>horse_trough</code>
+      <name>horse_trough name</name>
+      <text>horse_trough desc</text>
+       <allowbundlepurchase/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="pets"/>
+  </metadata>
+</hofdata>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="rare_sage" runtimeclass="com.sulake.habbo.roomengine.furni.RandomSwitchStateActionFurniture">
+    <interaction>
+      <stand/>
+    </interaction>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>6</direction>
+    </directions>
+    <partcolors/>
+
+    <states>
+      <state id="0"/>
+      <stateselection>
+        <state id="1"/>
+        <state id="2"/>
+        <state id="3"/>
+      </stateselection>
+    </states>
+     </roomitemdata>
+  <productdata>
+    <product price="1">
+      <code>rare_sage</code>
+      <name>rare_sage name</name>
+      <text>rare_sage desc</text>
+      <excludedfromdynamic/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

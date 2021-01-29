@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="jukebox" runtimeclass="com.fuse.projects.goldfish.sound_machine.JukeboxRuntime" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.JukeboxPurchaseProcessor">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>2.0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors colorid="1">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <notrecyclable/>
+      <nottradeable/>
+      <notexportable/>
+      <notgroupable/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.JukeboxPurchaseProcessor">
+      <product colorid="1" price="10">
+         <code>jukebox_1</code>
+         <name>Jukebox Grey</name>
+         <text>Jukebox Grey</text>
+         <parameter/>
+         
+    </product>
+   </productdata>
+   <metadata>
+      <category name="music"/>
+   </metadata>
+</hofdata>

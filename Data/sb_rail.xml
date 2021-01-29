@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="sb_rail" customparams="71,72;0.2;0.2;0.1" runtimeclass="com.sulake.habbo.roomengine.furni.RailFurniture">
+    <interaction>
+      <stand/>
+    </interaction>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.35</height>
+    </dimensions>
+    <sprites>
+      <big>1</big>
+      <small>1</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>2</direction>
+    </directions>
+    <partcolors/>
+    <states/>
+    <builders-club-compatible/>
+  </roomitemdata>
+  <productdata>
+    <product price="2">
+      <code>sb_rail</code>
+      <name>sb_rail name</name>
+      <text>sb_rail desc</text>
+         <excludedfromdynamic/>
+       <allowbundlepurchase/>
+    </product>
+    <product itemcount="10">
+         <code>sb_10rail</code>
+         <name>sb_10rail name</name>
+         <text>sb_10rail desc</text>
+         <offers>
+            <offer credits="15" type="credit"/>
+         </offers>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

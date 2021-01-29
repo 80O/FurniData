@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="club_sofa">
+      <interaction>
+         <sit/>
+      </interaction>
+      <dimensions>
+         <x>2</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>4</big>
+         <small>4</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+      <partcolors>
+         <layer>0</layer>
+         <layer>0</layer>
+         <layer>0</layer>
+      </partcolors>
+   </roomitemdata>
+   <productdata>
+      <product price="5">
+         <code>a0 clubsofa</code>
+         <name>Club sofa</name>
+         <text>Club sofa</text>
+      </product>
+   </productdata>
+   <metadata>
+      <category name="chair"/>
+   </metadata>
+</hofdata>

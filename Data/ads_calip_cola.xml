@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ads_calip_cola"
+                 runtimeclass="com.sulake.habbo.roomengine.furni.VendingMachineFurni">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>1.0</height>
+      </dimensions>
+      <sprites>
+         <big>5</big>
+         <small>5</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <partcolors colorid="1">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#d2ff00</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <partcolors colorid="2">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#a32300</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <partcolors colorid="3">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#fd2c36</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <partcolors colorid="4">
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#FFFFFF</layer>
+         <layer>#00c6ff</layer>
+         <layer>#FFFFFF</layer>
+      </partcolors>
+      <everyone-can-use/>
+      <drinks>
+         <drink id="26"/>
+      </drinks>
+   </roomitemdata>
+   <productdata>
+      <product colorid="1" price="1">
+         <code>ads_calip_cola_1</code>
+         <name>ads_calip_cola_1 name</name>
+         <text>ads_calip_cola_1 text</text>
+      </product>
+      <product colorid="2" price="1">
+         <code>ads_calip_cola_2</code>
+         <name>ads_calip_cola_2 name</name>
+         <text>ads_calip_cola_2 text</text>
+      </product>
+      <product colorid="3" price="1">
+         <code>ads_calip_cola_3</code>
+         <name>ads_calip_cola_3 name</name>
+         <text>ads_calip_cola_3 text</text>
+      </product>
+      <product colorid="4" price="1">
+         <code>ads_calip_cola_4</code>
+         <name>ads_calip_cola_4 name</name>
+         <text>ads_calip_cola_4 text</text>
+      </product>
+   </productdata>
+   <aliasdata>
+      <alias name="ads_calip_colac">
+         <description>Calippo campaign furni</description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="vending_machine"/>
+   </metadata>
+</hofdata>

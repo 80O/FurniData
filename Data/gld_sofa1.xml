@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="gld_sofa1" runtimeclass="com.sulake.habbo.roomengine.furni.GuildCustomizedFurniture" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.GuildCustomizedFurniturePurchaseProcessor">
+    <interaction>
+      <sit/>
+    </interaction>
+    <dimensions>
+      <x>2</x>
+      <y>1</y>
+      <height>1.2</height>
+    </dimensions>
+    <sprites>
+      <big>12</big>
+      <small>12</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>0</direction>
+      <direction>6</direction>
+      <direction>4</direction>
+    </directions>
+    <partcolors/>
+	<notexportable/>
+	<specialtype id="17"/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+      <state id="3"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.GuildCustomizedFurniturePurchaseProcessor">
+    <product price="3">
+      <code>gld_sofa1</code>
+      <name>gld_sofa1 name</name>
+      <text>gld_sofa1 desc</text>
+      <excludedfromdynamic/>
+       
+    </product>
+  </productdata>
+  <metadata>
+    <category name="chair"/>
+  </metadata>
+</hofdata>

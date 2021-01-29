@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="lon_gate" runtimeclass="com.sulake.habbo.roomengine.furni.AchievementGateFurniture" customparams="LympixSecretService">
+    <interaction>
+      <stand/>
+    </interaction>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.15</height>
+    </dimensions>
+    <sprites>
+      <big>15</big>
+      <small>15</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>0</direction>
+      <direction>4</direction>
+      <direction>6</direction>
+    </directions>
+    <partcolors/>
+    <notexportable/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+    </states>
+  </roomitemdata>
+  <productdata>
+    <product price="1">
+      <code>lon_gate</code>
+      <name>lon_gate name</name>
+      <text>lon_gate desc</text>
+      <excludedfromdynamic/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="gate"/>
+  </metadata>
+</hofdata>

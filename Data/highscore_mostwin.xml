@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><!DOCTYPE hofdata SYSTEM "hofdata.dtd"><hofdata>
+  <roomitemdata class="highscore_mostwin" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.HighScoreFurniturePurchaseProcessor" runtimeclass="com.sulake.habbo.roomengine.furni.games.highscore.TeamWinsHighScoreFurniture">
+    <interaction>
+      <stand/>
+    </interaction>
+    <stacking>
+      <stuff/>
+    </stacking>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.65</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>2</direction>
+      <direction>0</direction>
+    </directions>
+    <partcolors colorid="1">
+      <layer>#FFD837</layer>
+      <layer>#FFFFFF</layer>
+    </partcolors>
+    <partcolors colorid="2">
+      <layer>#5DD9EB</layer>
+      <layer>#FFFFFF</layer>
+    </partcolors>
+    <partcolors colorid="3">
+      <layer>#D77761</layer>
+      <layer>#FFFFFF</layer>
+    </partcolors>
+    <partcolors colorid="4">
+      <layer>#D5D1EF</layer>
+      <layer>#FFFFFF</layer>
+    </partcolors>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.HighScoreFurniturePurchaseProcessor">
+    <product price="1" colorid="1">
+      <code>highscore_mostwin_alltime</code>
+      <name>highscore_mostwin_alltime name</name>
+      <text>highscore_mostwin_alltime desc</text>
+      <parameter>mostwins,alltime</parameter>
+    </product>
+    <product price="1" colorid="2">
+      <code>highscore_mostwin_daily</code>
+      <name>highscore_mostwin_daily name</name>
+      <text>highscore_mostwin_daily desc</text>
+      <parameter>mostwins,daily</parameter>
+    </product>
+    <product price="1" colorid="3">
+      <code>highscore_mostwin_weekly</code>
+      <name>highscore_mostwin_weekly name</name>
+      <text>highscore_mostwin_weekly desc</text>
+      <parameter>mostwins,weekly</parameter>
+    </product>
+    <product price="1" colorid="4">
+      <code>highscore_mostwin_monthly</code>
+      <name>highscore_mostwin_monthly name</name>
+      <text>highscore_mostwin_monthly desc</text>
+      <parameter>mostwins,monthly</parameter>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="games"/>
+  </metadata>
+</hofdata>

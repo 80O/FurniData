@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE hofdata
+  SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="ads_cl_jukeb"
+                 runtimeclass="com.fuse.projects.goldfish.sound_machine.JukeboxRuntime"
+                 specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.JukeboxPurchaseProcessor">
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>2.0</height>
+      </dimensions>
+      <sprites>
+         <big>2</big>
+         <small>2</small>
+      </sprites>
+      <directions>
+         <direction>2</direction>
+         <direction>4</direction>
+      </directions>
+      <notrecyclable/>
+      <nottradeable/>
+      <notexportable/>
+      <notgroupable/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+      </states>
+   </roomitemdata>
+   <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.JukeboxPurchaseProcessor">
+      <product price="1">
+         <code>ads_cl_jukeb</code>
+         <name>ads_cl_jukeb name</name>
+         <text>ads_cl_jukeb txt</text>
+         <parameter/>
+      </product>
+   </productdata>
+   <aliasdata>
+      <alias name="ads_cl_jukeb_camp">
+         <description>childline campaign text</description>
+      </alias>
+   </aliasdata>
+   <metadata>
+      <category name="music"/>
+   </metadata>
+</hofdata>

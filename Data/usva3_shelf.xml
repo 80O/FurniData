@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="usva3_shelf" runtimeclass="com.sulake.habbo.roomengine.furni.SwitchStateFurni">
+      <interaction>
+         <stand/>
+      </interaction>
+      <stacking>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.6875</height>
+      </dimensions>
+      <sprites>
+         <big>0</big>
+         <small>0</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+      </directions>
+      <partcolors/>
+      <states>
+         <state id="0"/>
+         <state id="1"/>
+         <state id="2"/>
+      </states>
+      <builders-club-compatible/>
+   </roomitemdata>
+   <productdata>
+      <product price="2">
+         <code>usva3_shelf</code>
+         <name>usva3_shelf name</name>
+         <text>usva3_shelf desc</text>
+         <allowbundlepurchase/>
+    </product>
+	  <product itemcount="10" price="15">
+          <code>deal_10greenblock</code>
+          <name>deal_10greenblock name</name>
+          <text>deal_10greenblock desc</text>
+       </product>
+	  <product itemcount="20" price="25">
+          <code>deal_20greenblock</code>
+          <name>deal_20greenblock name</name>
+          <text>deal_20bgreenblock desc</text>
+       </product>
+   </productdata>
+   <metadata>
+      <category name="shelf"/>
+   </metadata>
+</hofdata>

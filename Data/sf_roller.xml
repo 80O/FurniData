@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+   <roomitemdata class="sf_roller" customparams="2" runtimeclass="com.fuse.queue_system.queue_place.HabboQueueStuffRuntime">
+      <interaction>
+         <stand/>
+      </interaction>
+      <stacking>
+         <stuff/>
+      </stacking>
+      <dimensions>
+         <x>1</x>
+         <y>1</y>
+         <height>0.45</height>
+      </dimensions>
+      <sprites>
+         <big>1</big>
+         <small>1</small>
+      </sprites>
+      <directions>
+         <direction>0</direction>
+         <direction>2</direction>
+         <direction>4</direction>
+         <direction>6</direction>
+      </directions>
+   </roomitemdata>
+   <productdata>
+      <product price="1">
+         <code>sf_roller</code>
+         <name>sf_roller</name>
+         <text>sf_roller</text>
+         <parameter>1</parameter>
+         <allowbundlepurchase/>
+    </product>
+   </productdata>
+   <metadata>
+      <category name="roller"/>
+   </metadata>
+</hofdata>

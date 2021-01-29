@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="black_dino_egg" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor">
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>0.0</height>
+    </dimensions>
+    <sprites>
+      <big>1</big>
+      <small>1</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+    </directions>
+    <partcolors>
+      <layer>0</layer>
+      <layer>0</layer>
+      <layer>0</layer>
+    </partcolors>
+    <notrecyclable/>
+    <notexportable/>
+    <notgroupable/>
+    <limitededition/>
+    <editionsizemultiplier>1</editionsizemultiplier>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.LimitedEditionPurchaseProcessor">
+    <product price="100">
+      <code>black_dino_egg</code>
+      <name>black_dino_egg name</name>
+      <text>black_dino_egg desc</text>
+      <excludedfromdynamic/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

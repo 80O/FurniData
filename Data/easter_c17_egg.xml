@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="easter_c17_egg" specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.CrackableRewardFurniturePurchaseProcessor" runtimeclass="com.sulake.habbo.roomengine.furni.PublicCrackableProductRewardFurniture">
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>1</height>
+    </dimensions>
+    <sprites>
+      <big>0</big>
+      <small>0</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>2</direction>
+    </directions>
+    <partcolors/>
+    <specialtype id="1"/>
+    <everyone-can-use/>
+    <states>
+      <state id="0"/>
+      <state id="1"/>
+      <state id="2"/>
+      <state id="3"/>
+      <state id="4"/>
+      <state id="5"/>
+      <state id="6"/>
+      <state id="7"/>
+      <state id="8"/>
+      <state id="9"/>
+      <state id="10"/>
+      <state id="11"/>
+      <state id="12"/>
+      <state id="13"/>
+      <state id="14"/>
+      <state id="15"/>
+      <state id="16"/>
+      <state id="17"/>
+      <state id="18"/>
+      <state id="19"/>
+      <state id="20"/>
+    </states>
+  </roomitemdata>
+  <productdata specialpurchaseprocessor="com.sulake.habbo.purchasing.processor.CrackableRewardFurniturePurchaseProcessor">
+    <product price="1">
+      <code>easter_c17_egg</code>
+      <name>easter_c17_egg name</name>
+      <text>easter_c17_egg desc</text>
+         <parameter>{"rewardSet":"easter17_6", "target":"10"}</parameter>
+      <excludedfromdynamic/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="other"/>
+  </metadata>
+</hofdata>

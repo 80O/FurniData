@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE hofdata SYSTEM "hofdata.dtd">
+<hofdata>
+  <roomitemdata class="js_exe_chair2">
+    <interaction>
+      <sit/>
+    </interaction>
+    <dimensions>
+      <x>1</x>
+      <y>1</y>
+      <height>1.1</height>
+    </dimensions>
+    <sprites>
+      <big>2</big>
+      <small>2</small>
+    </sprites>
+    <directions>
+      <direction>0</direction>
+      <direction>2</direction>
+      <direction>4</direction>
+      <direction>6</direction>
+    </directions>
+  </roomitemdata>
+  <productdata>
+    <product>
+      <code>js_exe_chair2</code>
+      <name>js_exe_chair2 name</name>
+      <text>js_exe_chair2 desc</text>
+      <parameter/>
+      <offers>
+        <offer credits="1" type="credit"/>
+        <offer credits="2" pixels="99" type="discount"/>
+      </offers>
+      <allowbundlepurchase/>
+    </product>
+  </productdata>
+  <metadata>
+    <category name="chair"/>
+  </metadata>
+</hofdata>
