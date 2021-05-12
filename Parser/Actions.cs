@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text.Json;
 
 namespace FurniParser
 {
@@ -10,60 +8,62 @@ namespace FurniParser
     {
         public static void ExportTags(this FurniCache cache)
         {
-            var items = new Dictionary<string, HashSet<string>>();
+            var dict = new Dictionary<string, HashSet<string>>();
             foreach (var node in cache.Furniture.Values.SelectMany(v => v.Descendants()).ToList())
             {
-                if (!items.ContainsKey(node.Name.LocalName))
-                    items[node.Name.LocalName] = new HashSet<string>();
+                if (!dict.ContainsKey(node.Name.LocalName))
+                    dict[node.Name.LocalName] = new HashSet<string>();
 
                 foreach (var attribute in node.Attributes().Select(a => a.Name))
-                    items[node.Name.LocalName].Add(attribute.LocalName);
+                    dict[node.Name.LocalName].Add(attribute.LocalName);
             }
 
-            using var streamWriter = new StreamWriter(Path.Join(cache.Output, "TagsAndAttributesList.json"));
-            streamWriter.Write(JsonSerializer.Serialize(items, new() { WriteIndented = true }));
+            using var streamWriter = new StreamWriter(Path.Join(cache.Output, "TagsAndAttributesList.txt"));
+            foreach (var (node, attributes) in dict.OrderBy(kvp => kvp.Key))
+            {
+                streamWriter.WriteLine(node);
+                foreach (var attribute in attributes.OrderBy(d => d))
+                    streamWriter.WriteLine($"\t{attribute}");
+            }
         }
 
         public static void ExportDrinks(this FurniCache cache)
         {
-            var items = cache.Furniture
-                .Where(kvp => kvp.Value.Descendants().Any(node => node.Name.LocalName.Contains("drinks"))).Select(x =>
-                    new
-                    {
-                        Name = x.Key,
-                        Drinks = x.Value.Descendants().Where(d => d.Name.LocalName.Equals("drink")).Select(drink => int.Parse(drink.Attributes().First(a => a.Name.LocalName.Equals("id")).Value)).OrderBy(d => d).ToList()
-                    });
-
-            using var streamWriter = new StreamWriter(Path.Join(cache.Output, "VendingMachineIds.json"));
-            streamWriter.Write(JsonSerializer.Serialize(items, new() { WriteIndented = true }));
+            using var streamWriter = new StreamWriter(Path.Join(cache.Output, "VendingMachineIds.txt"));
+            foreach (var (name, doc) in cache.Furniture.Where(kvp => kvp.Value.Descendants().Any(node => node.Name.LocalName.Contains("drinks"))))
+            {
+                var drinks = doc.Descendants().Where(d => d.Name.LocalName.Equals("drink")).ToList();
+                if (drinks.Any())
+                {
+                    streamWriter.WriteLine($"{name} => {string.Join("\t", drinks.Select(drink => drink.Attributes().First(a => a.Name.LocalName.Equals("id")).Value).OrderBy(d => d).ToList())}");
+                }
+            }
         }
 
         public static void ExportStateCount(this FurniCache cache)
         {
-            var items = cache.Furniture
-                .Where(kvp => kvp.Value.Descendants().Any(node => node.Name.LocalName.Contains("states"))).Select(x =>
-                    new
-                    {
-                        name = x.Key,
-                        states = x.Value.Descendants().FirstOrDefault(d => d.Name.LocalName.Equals("states"))?.Descendants("state").Count() ?? 0
-                    });
-            using var streamWriter = new StreamWriter(Path.Join(cache.Output, "FurnitureStateCount.json"));
-            streamWriter.Write(JsonSerializer.Serialize(items, new() { WriteIndented = true }));
+            using var streamWriter = new StreamWriter(Path.Join(cache.Output, "FurnitureStateCount.txt"));
+            foreach (var (name, doc) in cache.Furniture.Where(kvp => kvp.Value.Descendants().Any(node => node.Name.LocalName.Contains("states"))))
+            {
+                var states = doc.Descendants().FirstOrDefault(d => d.Name.LocalName.Equals("states"));
+                if (states != null)
+                {
+                    streamWriter.WriteLine($"{name} => {states.Descendants("state").Count()}");
+                }
+            }
         }
 
         public static void ExportHeights(this FurniCache cache)
         {
-            var items = cache.Furniture
-                .Where(kvp => kvp.Value.Descendants().Any(node => node.Name.LocalName.Contains("height"))).Select(x =>
-                    new
-                    {
-                        name = x.Key,
-                        height = double.Parse(x.Value.Descendants()
-                            .FirstOrDefault(d => d.Name.LocalName.Equals("height"))?.Value ?? "0", CultureInfo.InvariantCulture)
-                    });
-
-            using var streamWriter = new StreamWriter(Path.Join(cache.Output, "FurnitureHeights.json"));
-            streamWriter.Write(JsonSerializer.Serialize(items, new() { WriteIndented = true }));
+            using var streamWriter = new StreamWriter(Path.Join(cache.Output, "FurnitureHeights.txt"));
+            foreach (var (name, doc) in cache.Furniture.Where(kvp => kvp.Value.Descendants().Any(node => node.Name.LocalName.Contains("height"))))
+            {
+                var height = doc.Descendants().FirstOrDefault(d => d.Name.LocalName.Equals("height"));
+                if (height != null)
+                {
+                    streamWriter.WriteLine($"{name} => {height.Value}");
+                }
+            }
         }
     }
 }
