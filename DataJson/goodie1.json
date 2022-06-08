@@ -1,0 +1,554 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1281540464633490153
+  },
+  "m_Name": "goodie1",
+  "idHash": 0,
+  "id": "goodie1",
+  "main": {
+    "roomItemData": {
+      "runtimeClass": "com.fuse.agent.pets.FUSEPetGoodieRuntime",
+      "dimensions": {
+        "x": 1,
+        "y": 1,
+        "height": 0
+      },
+      "directions": [
+        2
+      ],
+      "states": []
+    },
+    "wallItemData": {
+      "runtimeClass": "",
+      "states": []
+    },
+    "petItemData": {
+      "runTimeClass": "",
+      "dimensions": {
+        "x": 0,
+        "y": 0,
+        "height": 0
+      },
+      "directions": [],
+      "states": []
+    },
+    "metaData": {
+      "category": {
+        "name": "pets"
+      }
+    }
+  },
+  "index": {
+    "type": "goodie1",
+    "visualization": "furniture_static",
+    "logic": "furniture_basic"
+  },
+  "logic": {
+    "credits": {
+      "credits": 0
+    },
+    "action": {
+      "startState": -1,
+      "link": ""
+    },
+    "customVars": [],
+    "particleSystems": [],
+    "particleSystem": {
+      "size": 0,
+      "canvasId": 0,
+      "offsetY": 0,
+      "blend": 1,
+      "bgColor": 4278190080,
+      "emitter": {
+        "_lifeTime": 0,
+        "_isEmitter": 0,
+        "_frames": [],
+        "id": 0,
+        "spriteId": 0,
+        "explosionAnimation": "",
+        "fuseTime": 0,
+        "_name": "",
+        "maxNumParticles": 0,
+        "particlesPerFrame": 0,
+        "burstPulse": 1,
+        "simulation": {
+          "_force": 0,
+          "direction": 0,
+          "energy": 0,
+          "_explosionShape": "",
+          "_gravity": 0,
+          "_airFriction": 0
+        },
+        "_particlesArr": [],
+        "particlesList": []
+      }
+    },
+    "mask": {
+      "type": ""
+    },
+    "model": {
+      "dimensions": {
+        "x": 1,
+        "y": 1,
+        "z": 0,
+        "centerZ": 0
+      },
+      "directions": [
+        {
+          "id": 90
+        }
+      ],
+      "populated": 1,
+      "directionIds": [
+        90
+      ]
+    }
+  },
+  "visualization": {
+    "type": "goodie1",
+    "visualizations": [
+      {
+        "size": 64,
+        "angle": 45,
+        "directions": [
+          {
+            "id": 2,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "ADD",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              }
+            ]
+          }
+        ],
+        "colors": [
+          {
+            "id": 1,
+            "colorLayers": [
+              {
+                "layerIndex": 0,
+                "color": "3fffff",
+                "unityColor": {
+                  "r": 0.24705882,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "colorLayers": [
+              {
+                "layerIndex": 0,
+                "color": "ffbf00",
+                "unityColor": {
+                  "r": 1,
+                  "g": 0.7490196,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 0,
+            "colorLayers": [
+              {
+                "layerIndex": 0,
+                "color": "ff4cbf",
+                "unityColor": {
+                  "r": 1,
+                  "g": 0.29803923,
+                  "b": 0.7490196,
+                  "a": 1
+                }
+              }
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "id": "1",
+            "x": "",
+            "y": "",
+            "z": "",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "ADD",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        ],
+        "animations": [],
+        "layerCount": 2,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "ADD",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      },
+      {
+        "size": 1,
+        "angle": 360,
+        "directions": [
+          {
+            "id": 0,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              }
+            ]
+          }
+        ],
+        "colors": [
+          {
+            "id": 1,
+            "colorLayers": [
+              {
+                "layerIndex": 0,
+                "color": "3fffff",
+                "unityColor": {
+                  "r": 0.24705882,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "colorLayers": [
+              {
+                "layerIndex": 0,
+                "color": "ffbf00",
+                "unityColor": {
+                  "r": 1,
+                  "g": 0.7490196,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 0,
+            "colorLayers": [
+              {
+                "layerIndex": 0,
+                "color": "ff4cbf",
+                "unityColor": {
+                  "r": 1,
+                  "g": 0.29803923,
+                  "b": 0.7490196,
+                  "a": 1
+                }
+              }
+            ]
+          }
+        ],
+        "layers": [],
+        "animations": [],
+        "layerCount": 1,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      }
+    ],
+    "typeLower": "goodie1",
+    "defaultVisualization": {
+      "size": 64,
+      "angle": 45,
+      "directions": [
+        {
+          "id": 2,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "ADD",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "id": 1,
+          "colorLayers": [
+            {
+              "layerIndex": 0,
+              "color": "3fffff",
+              "unityColor": {
+                "r": 0.24705882,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorLayers": [
+            {
+              "layerIndex": 0,
+              "color": "ffbf00",
+              "unityColor": {
+                "r": 1,
+                "g": 0.7490196,
+                "b": 0,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 0,
+          "colorLayers": [
+            {
+              "layerIndex": 0,
+              "color": "ff4cbf",
+              "unityColor": {
+                "r": 1,
+                "g": 0.29803923,
+                "b": 0.7490196,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "id": "1",
+          "x": "",
+          "y": "",
+          "z": "",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "ADD",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "animations": [],
+      "layerCount": 2,
+      "defaultDirPopulated": 1,
+      "defaultDirection": {
+        "id": 0,
+        "layers": [],
+        "allLayers": [
+          {
+            "id": "0",
+            "x": "",
+            "y": "",
+            "z": "",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "id": "1",
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "ADD",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "dirsPopulated": 1
+    }
+  },
+  "assets": {
+    "assets": [
+      {
+        "name": "goodie1_64_a_2_0",
+        "source": "",
+        "x": -1,
+        "y": 2,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "goodie1_64_b_2_0",
+        "source": "",
+        "x": -3,
+        "y": 1,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "goodie1_64_sd_2_0",
+        "source": "",
+        "x": -1,
+        "y": -3,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "goodie1_icon_a",
+        "source": "",
+        "x": 11,
+        "y": 8,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      }
+    ]
+  },
+  "asAssets": {
+    "assetDataMapping": []
+  }
+}

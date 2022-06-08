@@ -1,0 +1,1329 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1281540464633490153
+  },
+  "m_Name": "anna_table",
+  "idHash": 0,
+  "id": "anna_table",
+  "main": {
+    "roomItemData": {
+      "runtimeClass": "",
+      "dimensions": {
+        "x": 2,
+        "y": 2,
+        "height": 1
+      },
+      "directions": [
+        0
+      ],
+      "states": []
+    },
+    "wallItemData": {
+      "runtimeClass": "",
+      "states": []
+    },
+    "petItemData": {
+      "runTimeClass": "",
+      "dimensions": {
+        "x": 0,
+        "y": 0,
+        "height": 0
+      },
+      "directions": [],
+      "states": []
+    },
+    "metaData": {
+      "category": {
+        "name": "table"
+      }
+    }
+  },
+  "index": {
+    "type": "anna_table",
+    "visualization": "furniture_static",
+    "logic": "furniture_basic"
+  },
+  "logic": {
+    "credits": {
+      "credits": 0
+    },
+    "action": {
+      "startState": -1,
+      "link": ""
+    },
+    "customVars": [],
+    "particleSystems": [],
+    "particleSystem": {
+      "size": 0,
+      "canvasId": 0,
+      "offsetY": 0,
+      "blend": 1,
+      "bgColor": 4278190080,
+      "emitter": {
+        "_lifeTime": 0,
+        "_isEmitter": 0,
+        "_frames": [],
+        "id": 0,
+        "spriteId": 0,
+        "explosionAnimation": "",
+        "fuseTime": 0,
+        "_name": "",
+        "maxNumParticles": 0,
+        "particlesPerFrame": 0,
+        "burstPulse": 1,
+        "simulation": {
+          "_force": 0,
+          "direction": 0,
+          "energy": 0,
+          "_explosionShape": "",
+          "_gravity": 0,
+          "_airFriction": 0
+        },
+        "_particlesArr": [],
+        "particlesList": []
+      }
+    },
+    "mask": {
+      "type": ""
+    },
+    "model": {
+      "dimensions": {
+        "x": 2,
+        "y": 2,
+        "z": 1,
+        "centerZ": 0
+      },
+      "directions": [
+        {
+          "id": 0
+        }
+      ],
+      "populated": 1,
+      "directionIds": [
+        0
+      ]
+    }
+  },
+  "visualization": {
+    "type": "anna_table",
+    "visualizations": [
+      {
+        "size": 1,
+        "angle": 360,
+        "directions": [],
+        "colors": [
+          {
+            "id": 1,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "ead844",
+                "unityColor": {
+                  "r": 0.91764706,
+                  "g": 0.84705883,
+                  "b": 0.26666668,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "e34a83",
+                "unityColor": {
+                  "r": 0.8901961,
+                  "g": 0.2901961,
+                  "b": 0.5137255,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "95e24c",
+                "unityColor": {
+                  "r": 0.58431375,
+                  "g": 0.8862745,
+                  "b": 0.29803923,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "4ccce2",
+                "unityColor": {
+                  "r": 0.29803923,
+                  "g": 0.8,
+                  "b": 0.8862745,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "9466d5",
+                "unityColor": {
+                  "r": 0.5803922,
+                  "g": 0.4,
+                  "b": 0.8352941,
+                  "a": 1
+                }
+              }
+            ]
+          }
+        ],
+        "layers": [],
+        "animations": [],
+        "layerCount": 2,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": -3.4028235E+38,
+                "y": -3.4028235E+38,
+                "z": -3.4028235E+38
+              }
+            },
+            {
+              "id": "1",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": -3.4028235E+38,
+                "y": -3.4028235E+38,
+                "z": -3.4028235E+38
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      },
+      {
+        "size": 64,
+        "angle": 45,
+        "directions": [
+          {
+            "id": 0,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "1000",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -1
+                }
+              },
+              {
+                "id": "2",
+                "x": "0",
+                "y": "0",
+                "z": "2000",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -2
+                }
+              },
+              {
+                "id": "3",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "230",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "4",
+                "x": "0",
+                "y": "0",
+                "z": "1000",
+                "alpha": "230",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -1
+                }
+              },
+              {
+                "id": "5",
+                "x": "0",
+                "y": "0",
+                "z": "2000",
+                "alpha": "230",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -2
+                }
+              }
+            ]
+          }
+        ],
+        "colors": [
+          {
+            "id": 1,
+            "colorLayers": [
+              {
+                "layerIndex": 3,
+                "color": "ead844",
+                "unityColor": {
+                  "r": 0.91764706,
+                  "g": 0.84705883,
+                  "b": 0.26666668,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 4,
+                "color": "ead844",
+                "unityColor": {
+                  "r": 0.91764706,
+                  "g": 0.84705883,
+                  "b": 0.26666668,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 5,
+                "color": "ead844",
+                "unityColor": {
+                  "r": 0.91764706,
+                  "g": 0.84705883,
+                  "b": 0.26666668,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "colorLayers": [
+              {
+                "layerIndex": 3,
+                "color": "e34a83",
+                "unityColor": {
+                  "r": 0.8901961,
+                  "g": 0.2901961,
+                  "b": 0.5137255,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 4,
+                "color": "e34a83",
+                "unityColor": {
+                  "r": 0.8901961,
+                  "g": 0.2901961,
+                  "b": 0.5137255,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 5,
+                "color": "e34a83",
+                "unityColor": {
+                  "r": 0.8901961,
+                  "g": 0.2901961,
+                  "b": 0.5137255,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "colorLayers": [
+              {
+                "layerIndex": 3,
+                "color": "95e24c",
+                "unityColor": {
+                  "r": 0.58431375,
+                  "g": 0.8862745,
+                  "b": 0.29803923,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 4,
+                "color": "95e24c",
+                "unityColor": {
+                  "r": 0.58431375,
+                  "g": 0.8862745,
+                  "b": 0.29803923,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 5,
+                "color": "95e24c",
+                "unityColor": {
+                  "r": 0.58431375,
+                  "g": 0.8862745,
+                  "b": 0.29803923,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "colorLayers": [
+              {
+                "layerIndex": 3,
+                "color": "4ccce2",
+                "unityColor": {
+                  "r": 0.29803923,
+                  "g": 0.8,
+                  "b": 0.8862745,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 4,
+                "color": "4ccce2",
+                "unityColor": {
+                  "r": 0.29803923,
+                  "g": 0.8,
+                  "b": 0.8862745,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 5,
+                "color": "4ccce2",
+                "unityColor": {
+                  "r": 0.29803923,
+                  "g": 0.8,
+                  "b": 0.8862745,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "colorLayers": [
+              {
+                "layerIndex": 3,
+                "color": "9466d5",
+                "unityColor": {
+                  "r": 0.5803922,
+                  "g": 0.4,
+                  "b": 0.8352941,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 4,
+                "color": "9466d5",
+                "unityColor": {
+                  "r": 0.5803922,
+                  "g": 0.4,
+                  "b": 0.8352941,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 5,
+                "color": "9466d5",
+                "unityColor": {
+                  "r": 0.5803922,
+                  "g": 0.4,
+                  "b": 0.8352941,
+                  "a": 1
+                }
+              }
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "id": "0",
+            "x": "",
+            "y": "",
+            "z": "",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "id": "1",
+            "x": "",
+            "y": "",
+            "z": "1000",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -1
+            }
+          },
+          {
+            "id": "2",
+            "x": "",
+            "y": "",
+            "z": "2000",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -2
+            }
+          },
+          {
+            "id": "3",
+            "x": "",
+            "y": "",
+            "z": "",
+            "alpha": "230",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "id": "4",
+            "x": "",
+            "y": "",
+            "z": "1000",
+            "alpha": "230",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -1
+            }
+          },
+          {
+            "id": "5",
+            "x": "",
+            "y": "",
+            "z": "2000",
+            "alpha": "230",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -2
+            }
+          }
+        ],
+        "animations": [],
+        "layerCount": 6,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "1000",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -1
+              }
+            },
+            {
+              "id": "2",
+              "x": "0",
+              "y": "0",
+              "z": "2000",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -2
+              }
+            },
+            {
+              "id": "3",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "230",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "4",
+              "x": "0",
+              "y": "0",
+              "z": "1000",
+              "alpha": "230",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -1
+              }
+            },
+            {
+              "id": "5",
+              "x": "0",
+              "y": "0",
+              "z": "2000",
+              "alpha": "230",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -2
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      }
+    ],
+    "typeLower": "anna_table",
+    "defaultVisualization": {
+      "size": 64,
+      "angle": 45,
+      "directions": [
+        {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "1000",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -1
+              }
+            },
+            {
+              "id": "2",
+              "x": "0",
+              "y": "0",
+              "z": "2000",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -2
+              }
+            },
+            {
+              "id": "3",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "230",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "4",
+              "x": "0",
+              "y": "0",
+              "z": "1000",
+              "alpha": "230",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -1
+              }
+            },
+            {
+              "id": "5",
+              "x": "0",
+              "y": "0",
+              "z": "2000",
+              "alpha": "230",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -2
+              }
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "id": 1,
+          "colorLayers": [
+            {
+              "layerIndex": 3,
+              "color": "ead844",
+              "unityColor": {
+                "r": 0.91764706,
+                "g": 0.84705883,
+                "b": 0.26666668,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 4,
+              "color": "ead844",
+              "unityColor": {
+                "r": 0.91764706,
+                "g": 0.84705883,
+                "b": 0.26666668,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 5,
+              "color": "ead844",
+              "unityColor": {
+                "r": 0.91764706,
+                "g": 0.84705883,
+                "b": 0.26666668,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorLayers": [
+            {
+              "layerIndex": 3,
+              "color": "e34a83",
+              "unityColor": {
+                "r": 0.8901961,
+                "g": 0.2901961,
+                "b": 0.5137255,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 4,
+              "color": "e34a83",
+              "unityColor": {
+                "r": 0.8901961,
+                "g": 0.2901961,
+                "b": 0.5137255,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 5,
+              "color": "e34a83",
+              "unityColor": {
+                "r": 0.8901961,
+                "g": 0.2901961,
+                "b": 0.5137255,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorLayers": [
+            {
+              "layerIndex": 3,
+              "color": "95e24c",
+              "unityColor": {
+                "r": 0.58431375,
+                "g": 0.8862745,
+                "b": 0.29803923,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 4,
+              "color": "95e24c",
+              "unityColor": {
+                "r": 0.58431375,
+                "g": 0.8862745,
+                "b": 0.29803923,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 5,
+              "color": "95e24c",
+              "unityColor": {
+                "r": 0.58431375,
+                "g": 0.8862745,
+                "b": 0.29803923,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorLayers": [
+            {
+              "layerIndex": 3,
+              "color": "4ccce2",
+              "unityColor": {
+                "r": 0.29803923,
+                "g": 0.8,
+                "b": 0.8862745,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 4,
+              "color": "4ccce2",
+              "unityColor": {
+                "r": 0.29803923,
+                "g": 0.8,
+                "b": 0.8862745,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 5,
+              "color": "4ccce2",
+              "unityColor": {
+                "r": 0.29803923,
+                "g": 0.8,
+                "b": 0.8862745,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorLayers": [
+            {
+              "layerIndex": 3,
+              "color": "9466d5",
+              "unityColor": {
+                "r": 0.5803922,
+                "g": 0.4,
+                "b": 0.8352941,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 4,
+              "color": "9466d5",
+              "unityColor": {
+                "r": 0.5803922,
+                "g": 0.4,
+                "b": 0.8352941,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 5,
+              "color": "9466d5",
+              "unityColor": {
+                "r": 0.5803922,
+                "g": 0.4,
+                "b": 0.8352941,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "id": "0",
+          "x": "",
+          "y": "",
+          "z": "",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "id": "1",
+          "x": "",
+          "y": "",
+          "z": "1000",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          }
+        },
+        {
+          "id": "2",
+          "x": "",
+          "y": "",
+          "z": "2000",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": -2
+          }
+        },
+        {
+          "id": "3",
+          "x": "",
+          "y": "",
+          "z": "",
+          "alpha": "230",
+          "ignoreMouse": "",
+          "blendMode": "",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "id": "4",
+          "x": "",
+          "y": "",
+          "z": "1000",
+          "alpha": "230",
+          "ignoreMouse": "",
+          "blendMode": "",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          }
+        },
+        {
+          "id": "5",
+          "x": "",
+          "y": "",
+          "z": "2000",
+          "alpha": "230",
+          "ignoreMouse": "",
+          "blendMode": "",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": -2
+          }
+        }
+      ],
+      "animations": [],
+      "layerCount": 6,
+      "defaultDirPopulated": 1,
+      "defaultDirection": {
+        "id": 0,
+        "layers": [],
+        "allLayers": [
+          {
+            "id": "0",
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "id": "1",
+            "x": "0",
+            "y": "0",
+            "z": "1000",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -1
+            }
+          },
+          {
+            "id": "2",
+            "x": "0",
+            "y": "0",
+            "z": "2000",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -2
+            }
+          },
+          {
+            "id": "3",
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "alpha": "230",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "id": "4",
+            "x": "0",
+            "y": "0",
+            "z": "1000",
+            "alpha": "230",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -1
+            }
+          },
+          {
+            "id": "5",
+            "x": "0",
+            "y": "0",
+            "z": "2000",
+            "alpha": "230",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -2
+            }
+          }
+        ]
+      },
+      "dirsPopulated": 1
+    }
+  },
+  "assets": {
+    "assets": [
+      {
+        "name": "anna_table_64_a_0_0",
+        "source": "",
+        "x": 31,
+        "y": 43,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "anna_table_64_b_0_0",
+        "source": "",
+        "x": 60,
+        "y": 26,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "anna_table_64_c_0_0",
+        "source": "",
+        "x": 31,
+        "y": -3,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "anna_table_64_d_0_0",
+        "source": "",
+        "x": 29,
+        "y": 46,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "anna_table_64_e_0_0",
+        "source": "",
+        "x": 61,
+        "y": 31,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "anna_table_64_f_0_0",
+        "source": "",
+        "x": 31,
+        "y": 16,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "anna_table_64_sd_0_0",
+        "source": "",
+        "x": 61,
+        "y": 15,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "anna_table_icon_a",
+        "source": "",
+        "x": 14,
+        "y": 3,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "anna_table_icon_b",
+        "source": "",
+        "x": 14,
+        "y": 13,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      }
+    ]
+  },
+  "asAssets": {
+    "assetDataMapping": [
+      {
+        "fileName": "manifest",
+        "source": "manifest.xml"
+      },
+      {
+        "fileName": "index",
+        "source": "index.xml"
+      },
+      {
+        "fileName": "anna_table_visualization",
+        "source": "anna_table_visualization.xml"
+      },
+      {
+        "fileName": "anna_table_assets",
+        "source": "anna_table_assets.xml"
+      },
+      {
+        "fileName": "anna_table_logic",
+        "source": "anna_table_logic.xml"
+      },
+      {
+        "fileName": "anna_table_64_a_0_0",
+        "source": "anna_table_64_a_0_0.png"
+      },
+      {
+        "fileName": "anna_table_64_b_0_0",
+        "source": "anna_table_64_b_0_0.png"
+      },
+      {
+        "fileName": "anna_table_64_c_0_0",
+        "source": "anna_table_64_c_0_0.png"
+      },
+      {
+        "fileName": "anna_table_64_d_0_0",
+        "source": "anna_table_64_d_0_0.png"
+      },
+      {
+        "fileName": "anna_table_64_e_0_0",
+        "source": "anna_table_64_e_0_0.png"
+      },
+      {
+        "fileName": "anna_table_64_f_0_0",
+        "source": "anna_table_64_f_0_0.png"
+      },
+      {
+        "fileName": "anna_table_64_sd_0_0",
+        "source": "anna_table_64_sd_0_0.png"
+      },
+      {
+        "fileName": "anna_table_icon_a",
+        "source": "anna_table_icon_a.png"
+      },
+      {
+        "fileName": "anna_table_icon_b",
+        "source": "anna_table_icon_b.png"
+      }
+    ]
+  }
+}

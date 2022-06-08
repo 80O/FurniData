@@ -1,0 +1,1562 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1281540464633490153
+  },
+  "m_Name": "gothic_chair",
+  "idHash": 0,
+  "id": "gothic_chair",
+  "main": {
+    "roomItemData": {
+      "runtimeClass": "",
+      "dimensions": {
+        "x": 1,
+        "y": 1,
+        "height": 1.2
+      },
+      "directions": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "states": []
+    },
+    "wallItemData": {
+      "runtimeClass": "",
+      "states": []
+    },
+    "petItemData": {
+      "runTimeClass": "",
+      "dimensions": {
+        "x": 0,
+        "y": 0,
+        "height": 0
+      },
+      "directions": [],
+      "states": []
+    },
+    "metaData": {
+      "category": {
+        "name": "chair"
+      }
+    }
+  },
+  "index": {
+    "type": "gothic_chair",
+    "visualization": "furniture_static",
+    "logic": "furniture_basic"
+  },
+  "logic": {
+    "credits": {
+      "credits": 0
+    },
+    "action": {
+      "startState": -1,
+      "link": ""
+    },
+    "customVars": [],
+    "particleSystems": [],
+    "particleSystem": {
+      "size": 0,
+      "canvasId": 0,
+      "offsetY": 0,
+      "blend": 1,
+      "bgColor": 4278190080,
+      "emitter": {
+        "_lifeTime": 0,
+        "_isEmitter": 0,
+        "_frames": [],
+        "id": 0,
+        "spriteId": 0,
+        "explosionAnimation": "",
+        "fuseTime": 0,
+        "_name": "",
+        "maxNumParticles": 0,
+        "particlesPerFrame": 0,
+        "burstPulse": 1,
+        "simulation": {
+          "_force": 0,
+          "direction": 0,
+          "energy": 0,
+          "_explosionShape": "",
+          "_gravity": 0,
+          "_airFriction": 0
+        },
+        "_particlesArr": [],
+        "particlesList": []
+      }
+    },
+    "mask": {
+      "type": ""
+    },
+    "model": {
+      "dimensions": {
+        "x": 1,
+        "y": 1,
+        "z": 1.2,
+        "centerZ": 0
+      },
+      "directions": [
+        {
+          "id": 0
+        },
+        {
+          "id": 90
+        },
+        {
+          "id": 180
+        },
+        {
+          "id": 270
+        }
+      ],
+      "populated": 1,
+      "directionIds": [
+        0,
+        90,
+        180,
+        270
+      ]
+    }
+  },
+  "visualization": {
+    "type": "gothic_chair",
+    "visualizations": [
+      {
+        "size": 64,
+        "angle": 45,
+        "directions": [
+          {
+            "id": 0,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "2",
+                "x": "0",
+                "y": "0",
+                "z": "303",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.303
+                }
+              },
+              {
+                "id": "3",
+                "x": "0",
+                "y": "0",
+                "z": "303",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.303
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "2",
+                "x": "0",
+                "y": "0",
+                "z": "303",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.303
+                }
+              },
+              {
+                "id": "3",
+                "x": "0",
+                "y": "0",
+                "z": "303",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.303
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "2",
+                "x": "0",
+                "y": "0",
+                "z": "303",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.303
+                }
+              },
+              {
+                "id": "3",
+                "x": "0",
+                "y": "0",
+                "z": "303",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.303
+                }
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "2",
+                "x": "0",
+                "y": "0",
+                "z": "303",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.303
+                }
+              },
+              {
+                "id": "3",
+                "x": "0",
+                "y": "0",
+                "z": "303",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.303
+                }
+              }
+            ]
+          }
+        ],
+        "colors": [
+          {
+            "id": 1,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "ff9999",
+                "unityColor": {
+                  "r": 1,
+                  "g": 0.6,
+                  "b": 0.6,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 3,
+                "color": "ff9999",
+                "unityColor": {
+                  "r": 1,
+                  "g": 0.6,
+                  "b": 0.6,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "ff9900",
+                "unityColor": {
+                  "r": 1,
+                  "g": 0.6,
+                  "b": 0,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 3,
+                "color": "ff9900",
+                "unityColor": {
+                  "r": 1,
+                  "g": 0.6,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "dd0000",
+                "unityColor": {
+                  "r": 0.8666667,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 3,
+                "color": "dd0000",
+                "unityColor": {
+                  "r": 0.8666667,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "555555",
+                "unityColor": {
+                  "r": 0.33333334,
+                  "g": 0.33333334,
+                  "b": 0.33333334,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 3,
+                "color": "555555",
+                "unityColor": {
+                  "r": 0.33333334,
+                  "g": 0.33333334,
+                  "b": 0.33333334,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "666600",
+                "unityColor": {
+                  "r": 0.4,
+                  "g": 0.4,
+                  "b": 0,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 3,
+                "color": "666600",
+                "unityColor": {
+                  "r": 0.4,
+                  "g": 0.4,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "336666",
+                "unityColor": {
+                  "r": 0.2,
+                  "g": 0.4,
+                  "b": 0.4,
+                  "a": 1
+                }
+              },
+              {
+                "layerIndex": 3,
+                "color": "336666",
+                "unityColor": {
+                  "r": 0.2,
+                  "g": 0.4,
+                  "b": 0.4,
+                  "a": 1
+                }
+              }
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "id": "2",
+            "x": "",
+            "y": "",
+            "z": "303",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -0.303
+            }
+          },
+          {
+            "id": "3",
+            "x": "",
+            "y": "",
+            "z": "303",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -0.303
+            }
+          }
+        ],
+        "animations": [],
+        "layerCount": 4,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "2",
+              "x": "0",
+              "y": "0",
+              "z": "303",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.303
+              }
+            },
+            {
+              "id": "3",
+              "x": "0",
+              "y": "0",
+              "z": "303",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.303
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      },
+      {
+        "size": 1,
+        "angle": 360,
+        "directions": [
+          {
+            "id": 0,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              }
+            ]
+          }
+        ],
+        "colors": [
+          {
+            "id": 1,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "ff9999",
+                "unityColor": {
+                  "r": 1,
+                  "g": 0.6,
+                  "b": 0.6,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "ff9900",
+                "unityColor": {
+                  "r": 1,
+                  "g": 0.6,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "dd0000",
+                "unityColor": {
+                  "r": 0.8666667,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "555555",
+                "unityColor": {
+                  "r": 0.33333334,
+                  "g": 0.33333334,
+                  "b": 0.33333334,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "666600",
+                "unityColor": {
+                  "r": 0.4,
+                  "g": 0.4,
+                  "b": 0,
+                  "a": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "colorLayers": [
+              {
+                "layerIndex": 1,
+                "color": "336666",
+                "unityColor": {
+                  "r": 0.2,
+                  "g": 0.4,
+                  "b": 0.4,
+                  "a": 1
+                }
+              }
+            ]
+          }
+        ],
+        "layers": [],
+        "animations": [],
+        "layerCount": 2,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      }
+    ],
+    "typeLower": "gothic_chair",
+    "defaultVisualization": {
+      "size": 64,
+      "angle": 45,
+      "directions": [
+        {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "2",
+              "x": "0",
+              "y": "0",
+              "z": "303",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.303
+              }
+            },
+            {
+              "id": "3",
+              "x": "0",
+              "y": "0",
+              "z": "303",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.303
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "2",
+              "x": "0",
+              "y": "0",
+              "z": "303",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.303
+              }
+            },
+            {
+              "id": "3",
+              "x": "0",
+              "y": "0",
+              "z": "303",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.303
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "2",
+              "x": "0",
+              "y": "0",
+              "z": "303",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.303
+              }
+            },
+            {
+              "id": "3",
+              "x": "0",
+              "y": "0",
+              "z": "303",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.303
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "2",
+              "x": "0",
+              "y": "0",
+              "z": "303",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.303
+              }
+            },
+            {
+              "id": "3",
+              "x": "0",
+              "y": "0",
+              "z": "303",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.303
+              }
+            }
+          ]
+        }
+      ],
+      "colors": [
+        {
+          "id": 1,
+          "colorLayers": [
+            {
+              "layerIndex": 1,
+              "color": "ff9999",
+              "unityColor": {
+                "r": 1,
+                "g": 0.6,
+                "b": 0.6,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 3,
+              "color": "ff9999",
+              "unityColor": {
+                "r": 1,
+                "g": 0.6,
+                "b": 0.6,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "colorLayers": [
+            {
+              "layerIndex": 1,
+              "color": "ff9900",
+              "unityColor": {
+                "r": 1,
+                "g": 0.6,
+                "b": 0,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 3,
+              "color": "ff9900",
+              "unityColor": {
+                "r": 1,
+                "g": 0.6,
+                "b": 0,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "colorLayers": [
+            {
+              "layerIndex": 1,
+              "color": "dd0000",
+              "unityColor": {
+                "r": 0.8666667,
+                "g": 0,
+                "b": 0,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 3,
+              "color": "dd0000",
+              "unityColor": {
+                "r": 0.8666667,
+                "g": 0,
+                "b": 0,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "colorLayers": [
+            {
+              "layerIndex": 1,
+              "color": "555555",
+              "unityColor": {
+                "r": 0.33333334,
+                "g": 0.33333334,
+                "b": 0.33333334,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 3,
+              "color": "555555",
+              "unityColor": {
+                "r": 0.33333334,
+                "g": 0.33333334,
+                "b": 0.33333334,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "colorLayers": [
+            {
+              "layerIndex": 1,
+              "color": "666600",
+              "unityColor": {
+                "r": 0.4,
+                "g": 0.4,
+                "b": 0,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 3,
+              "color": "666600",
+              "unityColor": {
+                "r": 0.4,
+                "g": 0.4,
+                "b": 0,
+                "a": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "colorLayers": [
+            {
+              "layerIndex": 1,
+              "color": "336666",
+              "unityColor": {
+                "r": 0.2,
+                "g": 0.4,
+                "b": 0.4,
+                "a": 1
+              }
+            },
+            {
+              "layerIndex": 3,
+              "color": "336666",
+              "unityColor": {
+                "r": 0.2,
+                "g": 0.4,
+                "b": 0.4,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "id": "2",
+          "x": "",
+          "y": "",
+          "z": "303",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": -0.303
+          }
+        },
+        {
+          "id": "3",
+          "x": "",
+          "y": "",
+          "z": "303",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": -0.303
+          }
+        }
+      ],
+      "animations": [],
+      "layerCount": 4,
+      "defaultDirPopulated": 1,
+      "defaultDirection": {
+        "id": 0,
+        "layers": [],
+        "allLayers": [
+          {
+            "id": "0",
+            "x": "",
+            "y": "",
+            "z": "",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "id": "1",
+            "x": "",
+            "y": "",
+            "z": "",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "id": "2",
+            "x": "0",
+            "y": "0",
+            "z": "303",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -0.303
+            }
+          },
+          {
+            "id": "3",
+            "x": "0",
+            "y": "0",
+            "z": "303",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -0.303
+            }
+          }
+        ]
+      },
+      "dirsPopulated": 1
+    }
+  },
+  "assets": {
+    "assets": [
+      {
+        "name": "gothic_chair_64_a_0_0",
+        "source": "",
+        "x": 29,
+        "y": 39,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_a_2_0",
+        "source": "gothic_chair_64_a_4_0",
+        "x": 30,
+        "y": 123,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_a_4_0",
+        "source": "",
+        "x": 30,
+        "y": 123,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_a_6_0",
+        "source": "gothic_chair_64_a_0_0",
+        "x": 29,
+        "y": 39,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_b_0_0",
+        "source": "",
+        "x": 26,
+        "y": 97,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_b_2_0",
+        "source": "gothic_chair_64_b_4_0",
+        "x": 28,
+        "y": 109,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_b_4_0",
+        "source": "",
+        "x": 28,
+        "y": 109,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_b_6_0",
+        "source": "gothic_chair_64_b_0_0",
+        "x": 26,
+        "y": 97,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_c_0_0",
+        "source": "",
+        "x": 31,
+        "y": 111,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_c_2_0",
+        "source": "gothic_chair_64_c_4_0",
+        "x": 4,
+        "y": 36,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_c_4_0",
+        "source": "",
+        "x": 4,
+        "y": 36,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_c_6_0",
+        "source": "gothic_chair_64_c_0_0",
+        "x": 31,
+        "y": 111,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_d_0_0",
+        "source": "",
+        "x": -5,
+        "y": 37,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_d_2_0",
+        "source": "gothic_chair_64_d_4_0",
+        "x": 2,
+        "y": 34,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_d_4_0",
+        "source": "",
+        "x": 2,
+        "y": 34,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_d_6_0",
+        "source": "gothic_chair_64_d_0_0",
+        "x": -5,
+        "y": 37,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_sd_0_0",
+        "source": "gothic_chair_64_sd_0_0",
+        "x": 31,
+        "y": 16,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_sd_2_0",
+        "source": "gothic_chair_64_sd_0_0",
+        "x": 31,
+        "y": 16,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_sd_4_0",
+        "source": "gothic_chair_64_sd_0_0",
+        "x": 31,
+        "y": 16,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_64_sd_6_0",
+        "source": "gothic_chair_64_sd_0_0",
+        "x": 31,
+        "y": 16,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_icon_a",
+        "source": "",
+        "x": 0,
+        "y": 44,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "gothic_chair_icon_b",
+        "source": "",
+        "x": -1,
+        "y": 43,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      }
+    ]
+  },
+  "asAssets": {
+    "assetDataMapping": []
+  }
+}

@@ -1,0 +1,1953 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1281540464633490153
+  },
+  "m_Name": "rare_ironmaiden",
+  "idHash": 0,
+  "id": "rare_ironmaiden",
+  "main": {
+    "roomItemData": {
+      "runtimeClass": "com.fuse.projects.goldfish.custom_furni.TeleportStuffRuntime",
+      "dimensions": {
+        "x": 1,
+        "y": 1,
+        "height": 0
+      },
+      "directions": [
+        4,
+        2
+      ],
+      "states": [
+        {
+          "id": 0
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ]
+    },
+    "wallItemData": {
+      "runtimeClass": "",
+      "states": []
+    },
+    "petItemData": {
+      "runTimeClass": "",
+      "dimensions": {
+        "x": 0,
+        "y": 0,
+        "height": 0
+      },
+      "directions": [],
+      "states": []
+    },
+    "metaData": {
+      "category": {
+        "name": "teleport"
+      }
+    }
+  },
+  "index": {
+    "type": "rare_ironmaiden",
+    "visualization": "furniture_animated",
+    "logic": "furniture_multistate"
+  },
+  "logic": {
+    "credits": {
+      "credits": 0
+    },
+    "action": {
+      "startState": -1,
+      "link": ""
+    },
+    "customVars": [],
+    "particleSystems": [],
+    "particleSystem": {
+      "size": 0,
+      "canvasId": 0,
+      "offsetY": 0,
+      "blend": 1,
+      "bgColor": 4278190080,
+      "emitter": {
+        "_lifeTime": 0,
+        "_isEmitter": 0,
+        "_frames": [],
+        "id": 0,
+        "spriteId": 0,
+        "explosionAnimation": "",
+        "fuseTime": 0,
+        "_name": "",
+        "maxNumParticles": 0,
+        "particlesPerFrame": 0,
+        "burstPulse": 1,
+        "simulation": {
+          "_force": 0,
+          "direction": 0,
+          "energy": 0,
+          "_explosionShape": "",
+          "_gravity": 0,
+          "_airFriction": 0
+        },
+        "_particlesArr": [],
+        "particlesList": []
+      }
+    },
+    "mask": {
+      "type": ""
+    },
+    "model": {
+      "dimensions": {
+        "x": 1,
+        "y": 1,
+        "z": 0,
+        "centerZ": 0
+      },
+      "directions": [
+        {
+          "id": 180
+        },
+        {
+          "id": 90
+        }
+      ],
+      "populated": 1,
+      "directionIds": [
+        180,
+        90
+      ]
+    }
+  },
+  "visualization": {
+    "type": "rare_ironmaiden",
+    "visualizations": [
+      {
+        "size": 1,
+        "angle": 360,
+        "directions": [],
+        "colors": [],
+        "layers": [],
+        "animations": [],
+        "layerCount": 1,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": -3.4028235E+38,
+                "y": -3.4028235E+38,
+                "z": -3.4028235E+38
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      },
+      {
+        "size": 64,
+        "angle": 45,
+        "directions": [
+          {
+            "id": 4,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "100",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.1
+                }
+              },
+              {
+                "id": "2",
+                "x": "0",
+                "y": "0",
+                "z": "110",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.11
+                }
+              },
+              {
+                "id": "3",
+                "x": "0",
+                "y": "0",
+                "z": "150",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.15
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "100",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.1
+                }
+              },
+              {
+                "id": "2",
+                "x": "0",
+                "y": "0",
+                "z": "110",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.11
+                }
+              },
+              {
+                "id": "3",
+                "x": "0",
+                "y": "0",
+                "z": "150",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": -0.15
+                }
+              }
+            ]
+          }
+        ],
+        "colors": [],
+        "layers": [
+          {
+            "id": "0",
+            "x": "",
+            "y": "",
+            "z": "",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "COPY",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "id": "1",
+            "x": "",
+            "y": "",
+            "z": "100",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "COPY",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -0.1
+            }
+          },
+          {
+            "id": "2",
+            "x": "",
+            "y": "",
+            "z": "110",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "COPY",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -0.11
+            }
+          },
+          {
+            "id": "3",
+            "x": "",
+            "y": "",
+            "z": "150",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "COPY",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -0.15
+            }
+          }
+        ],
+        "animations": [
+          {
+            "id": 0,
+            "randomStart": 0,
+            "transitionFrom": "",
+            "transitionTo": "",
+            "immediateChangeFrom": "",
+            "layers": [
+              {
+                "id": 0,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0
+                    ],
+                    "frameRepeats": [
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              },
+              {
+                "id": 1,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0
+                    ],
+                    "frameRepeats": [
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              },
+              {
+                "id": 2,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0
+                    ],
+                    "frameRepeats": [
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              },
+              {
+                "id": 3,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0
+                    ],
+                    "frameRepeats": [
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "randomStart": 0,
+            "transitionFrom": "",
+            "transitionTo": "",
+            "immediateChangeFrom": "",
+            "layers": [
+              {
+                "id": 0,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "",
+                "frameSequences": [],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              },
+              {
+                "id": 1,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "",
+                "frameSequences": [],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              },
+              {
+                "id": 2,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "3",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 1,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 2,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 3,
+                        "repeats": 5
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 2,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 1,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      4,
+                      5,
+                      6
+                    ],
+                    "frameRepeats": [
+                      1,
+                      1,
+                      1,
+                      5,
+                      4,
+                      3,
+                      2,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 1,
+                "frameRepeat": 3,
+                "random": 0
+              },
+              {
+                "id": 3,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "3",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 1,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 2,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 3,
+                        "repeats": 5
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 2,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 1,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      3,
+                      3,
+                      3,
+                      3,
+                      4,
+                      5,
+                      6
+                    ],
+                    "frameRepeats": [
+                      1,
+                      1,
+                      1,
+                      5,
+                      4,
+                      3,
+                      2,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 1,
+                "frameRepeat": 3,
+                "random": 0
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "randomStart": 0,
+            "transitionFrom": "",
+            "transitionTo": "",
+            "immediateChangeFrom": "",
+            "layers": [
+              {
+                "id": 0,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "",
+                "frameSequences": [],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              },
+              {
+                "id": 1,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "",
+                "frameSequences": [],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              },
+              {
+                "id": 2,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "0",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0
+                    ],
+                    "frameRepeats": [
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              },
+              {
+                "id": 3,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "0",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0
+                    ],
+                    "frameRepeats": [
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              }
+            ]
+          }
+        ],
+        "layerCount": 4,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "100",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.1
+              }
+            },
+            {
+              "id": "2",
+              "x": "0",
+              "y": "0",
+              "z": "110",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.11
+              }
+            },
+            {
+              "id": "3",
+              "x": "0",
+              "y": "0",
+              "z": "150",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.15
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      }
+    ],
+    "typeLower": "rare_ironmaiden",
+    "defaultVisualization": {
+      "size": 64,
+      "angle": 45,
+      "directions": [
+        {
+          "id": 4,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "100",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.1
+              }
+            },
+            {
+              "id": "2",
+              "x": "0",
+              "y": "0",
+              "z": "110",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.11
+              }
+            },
+            {
+              "id": "3",
+              "x": "0",
+              "y": "0",
+              "z": "150",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.15
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "100",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.1
+              }
+            },
+            {
+              "id": "2",
+              "x": "0",
+              "y": "0",
+              "z": "110",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.11
+              }
+            },
+            {
+              "id": "3",
+              "x": "0",
+              "y": "0",
+              "z": "150",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": -0.15
+              }
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "layers": [
+        {
+          "id": "0",
+          "x": "",
+          "y": "",
+          "z": "",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "COPY",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "id": "1",
+          "x": "",
+          "y": "",
+          "z": "100",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "COPY",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": -0.1
+          }
+        },
+        {
+          "id": "2",
+          "x": "",
+          "y": "",
+          "z": "110",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "COPY",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": -0.11
+          }
+        },
+        {
+          "id": "3",
+          "x": "",
+          "y": "",
+          "z": "150",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "COPY",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": -0.15
+          }
+        }
+      ],
+      "animations": [
+        {
+          "id": 0,
+          "randomStart": 0,
+          "transitionFrom": "",
+          "transitionTo": "",
+          "immediateChangeFrom": "",
+          "layers": [
+            {
+              "id": 0,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0
+                  ],
+                  "frameRepeats": [
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            },
+            {
+              "id": 1,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0
+                  ],
+                  "frameRepeats": [
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            },
+            {
+              "id": 2,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0
+                  ],
+                  "frameRepeats": [
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            },
+            {
+              "id": 3,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0
+                  ],
+                  "frameRepeats": [
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "randomStart": 0,
+          "transitionFrom": "",
+          "transitionTo": "",
+          "immediateChangeFrom": "",
+          "layers": [
+            {
+              "id": 0,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "",
+              "frameSequences": [],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            },
+            {
+              "id": 1,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "",
+              "frameSequences": [],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            },
+            {
+              "id": 2,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "3",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 1,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 2,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 3,
+                      "repeats": 5
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 2,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 1,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "frameRepeats": [
+                    1,
+                    1,
+                    1,
+                    5,
+                    4,
+                    3,
+                    2,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 1,
+              "frameRepeat": 3,
+              "random": 0
+            },
+            {
+              "id": 3,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "3",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 1,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 2,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 3,
+                      "repeats": 5
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 2,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 1,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "frameRepeats": [
+                    1,
+                    1,
+                    1,
+                    5,
+                    4,
+                    3,
+                    2,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 1,
+              "frameRepeat": 3,
+              "random": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "randomStart": 0,
+          "transitionFrom": "",
+          "transitionTo": "",
+          "immediateChangeFrom": "",
+          "layers": [
+            {
+              "id": 0,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "",
+              "frameSequences": [],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            },
+            {
+              "id": 1,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "",
+              "frameSequences": [],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            },
+            {
+              "id": 2,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "0",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0
+                  ],
+                  "frameRepeats": [
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            },
+            {
+              "id": 3,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "0",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0
+                  ],
+                  "frameRepeats": [
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            }
+          ]
+        }
+      ],
+      "layerCount": 4,
+      "defaultDirPopulated": 1,
+      "defaultDirection": {
+        "id": 0,
+        "layers": [],
+        "allLayers": [
+          {
+            "id": "0",
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "id": "1",
+            "x": "0",
+            "y": "0",
+            "z": "100",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -0.1
+            }
+          },
+          {
+            "id": "2",
+            "x": "0",
+            "y": "0",
+            "z": "110",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -0.11
+            }
+          },
+          {
+            "id": "3",
+            "x": "0",
+            "y": "0",
+            "z": "150",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": -0.15
+            }
+          }
+        ]
+      },
+      "dirsPopulated": 1
+    }
+  },
+  "assets": {
+    "assets": [
+      {
+        "name": "rare_ironmaiden_icon_a",
+        "source": "",
+        "x": 7,
+        "y": 13,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_a_4_0",
+        "source": "",
+        "x": 27,
+        "y": 103,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_b_4_0",
+        "source": "",
+        "x": 17,
+        "y": 140,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_c_4_0",
+        "source": "",
+        "x": 31,
+        "y": 102,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_d_4_0",
+        "source": "",
+        "x": 20,
+        "y": 102,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_c_4_1",
+        "source": "",
+        "x": 38,
+        "y": 99,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_d_4_1",
+        "source": "",
+        "x": 17,
+        "y": 93,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_c_4_2",
+        "source": "",
+        "x": 49,
+        "y": 102,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_d_4_2",
+        "source": "",
+        "x": 17,
+        "y": 86,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_c_4_3",
+        "source": "",
+        "x": 52,
+        "y": 104,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_d_4_3",
+        "source": "",
+        "x": 12,
+        "y": 82,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_a_2_0",
+        "source": "rare_ironmaiden_64_a_4_0",
+        "x": 27,
+        "y": 103,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_b_2_0",
+        "source": "rare_ironmaiden_64_b_4_0",
+        "x": 17,
+        "y": 140,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_c_2_0",
+        "source": "rare_ironmaiden_64_c_4_0",
+        "x": 31,
+        "y": 102,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_d_2_0",
+        "source": "rare_ironmaiden_64_d_4_0",
+        "x": 20,
+        "y": 102,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_c_2_1",
+        "source": "rare_ironmaiden_64_c_4_1",
+        "x": 38,
+        "y": 99,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_d_2_1",
+        "source": "rare_ironmaiden_64_d_4_1",
+        "x": 17,
+        "y": 93,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_c_2_2",
+        "source": "rare_ironmaiden_64_c_4_2",
+        "x": 49,
+        "y": 102,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_d_2_2",
+        "source": "rare_ironmaiden_64_d_4_2",
+        "x": 17,
+        "y": 86,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_c_2_3",
+        "source": "rare_ironmaiden_64_c_4_3",
+        "x": 52,
+        "y": 104,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "rare_ironmaiden_64_d_2_3",
+        "source": "rare_ironmaiden_64_d_4_3",
+        "x": 12,
+        "y": 82,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      }
+    ]
+  },
+  "asAssets": {
+    "assetDataMapping": [
+      {
+        "fileName": "manifest",
+        "source": "manifest.xml"
+      },
+      {
+        "fileName": "index",
+        "source": "index.xml"
+      },
+      {
+        "fileName": "rare_ironmaiden_visualization",
+        "source": "rare_ironmaiden_visualization.xml"
+      },
+      {
+        "fileName": "rare_ironmaiden_assets",
+        "source": "rare_ironmaiden_assets.xml"
+      },
+      {
+        "fileName": "rare_ironmaiden_logic",
+        "source": "rare_ironmaiden_logic.xml"
+      },
+      {
+        "fileName": "rare_ironmaiden_64_a_4_0",
+        "source": "rare_ironmaiden_64_a_4_0.png"
+      },
+      {
+        "fileName": "rare_ironmaiden_64_c_4_3",
+        "source": "rare_ironmaiden_64_c_4_3.png"
+      },
+      {
+        "fileName": "rare_ironmaiden_64_c_4_2",
+        "source": "rare_ironmaiden_64_c_4_2.png"
+      },
+      {
+        "fileName": "rare_ironmaiden_64_c_4_0",
+        "source": "rare_ironmaiden_64_c_4_0.png"
+      },
+      {
+        "fileName": "rare_ironmaiden_64_c_4_1",
+        "source": "rare_ironmaiden_64_c_4_1.png"
+      },
+      {
+        "fileName": "rare_ironmaiden_64_d_4_3",
+        "source": "rare_ironmaiden_64_d_4_3.png"
+      },
+      {
+        "fileName": "rare_ironmaiden_64_d_4_1",
+        "source": "rare_ironmaiden_64_d_4_1.png"
+      },
+      {
+        "fileName": "rare_ironmaiden_64_b_4_0",
+        "source": "rare_ironmaiden_64_b_4_0.png"
+      },
+      {
+        "fileName": "rare_ironmaiden_64_d_4_2",
+        "source": "rare_ironmaiden_64_d_4_2.png"
+      },
+      {
+        "fileName": "rare_ironmaiden_64_d_4_0",
+        "source": "rare_ironmaiden_64_d_4_0.png"
+      },
+      {
+        "fileName": "rare_ironmaiden_icon_a",
+        "source": "rare_ironmaiden_icon_a.png"
+      }
+    ]
+  }
+}

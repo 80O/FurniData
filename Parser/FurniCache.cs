@@ -1,29 +1,34 @@
-﻿using System;
+﻿using FurniParser.Model;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Xml.Linq;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace FurniParser
 {
     public class FurniCache
     {
-        private readonly Dictionary<string, XDocument> _furnitureXmls = new();
+        private readonly Dictionary<string, FurnitureModel> _furnitureJsons = new();
 
-        public IReadOnlyDictionary<string, XDocument> Furniture => _furnitureXmls;
+        public IReadOnlyDictionary<string, FurnitureModel> Furniture => _furnitureJsons;
 
-        public string XmlLocation { get; init; }
+        public string JsonLocation { get; init; }
         public string Output { get; init; }
+
+        private readonly JsonSerializerOptions _options = new()
+        {
+            NumberHandling = JsonNumberHandling.AllowNamedFloatingPointLiterals,
+            WriteIndented = true
+        };
 
         public void Load()
         {
-            foreach (var file in Directory.GetFiles(XmlLocation))
+            foreach (var file in Directory.GetFiles(JsonLocation))
             {
                 try
                 {
-                    using var fileStream = File.OpenRead(file);
-                    var doc = XDocument.Load(fileStream);
-                    _furnitureXmls[Path.GetFileNameWithoutExtension(file)] = doc;
+                    _furnitureJsons[Path.GetFileNameWithoutExtension(file)] = JsonSerializer.Deserialize<FurnitureModel>(File.ReadAllText(file), _options);
                 }
                 catch (Exception e)
                 {

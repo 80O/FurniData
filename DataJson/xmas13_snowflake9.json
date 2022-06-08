@@ -1,0 +1,1802 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1281540464633490153
+  },
+  "m_Name": "xmas13_snowflake9",
+  "idHash": 0,
+  "id": "xmas13_snowflake9",
+  "main": {
+    "roomItemData": {
+      "runtimeClass": "",
+      "dimensions": {
+        "x": 1,
+        "y": 1,
+        "height": 1
+      },
+      "directions": [
+        0,
+        2
+      ],
+      "states": [
+        {
+          "id": 0
+        }
+      ]
+    },
+    "wallItemData": {
+      "runtimeClass": "",
+      "states": []
+    },
+    "petItemData": {
+      "runTimeClass": "",
+      "dimensions": {
+        "x": 0,
+        "y": 0,
+        "height": 0
+      },
+      "directions": [],
+      "states": []
+    },
+    "metaData": {
+      "category": {
+        "name": "other"
+      }
+    }
+  },
+  "index": {
+    "type": "xmas13_snowflake9",
+    "visualization": "furniture_animated",
+    "logic": "furniture_multistate"
+  },
+  "logic": {
+    "credits": {
+      "credits": 0
+    },
+    "action": {
+      "startState": -1,
+      "link": ""
+    },
+    "customVars": [],
+    "particleSystems": [
+      {
+        "size": 64,
+        "canvasId": 0,
+        "offsetY": 0,
+        "blend": 1,
+        "bgColor": 4278190080,
+        "emitter": {
+          "_lifeTime": 0,
+          "_isEmitter": 0,
+          "_frames": [],
+          "id": 0,
+          "spriteId": 0,
+          "explosionAnimation": "",
+          "fuseTime": 0,
+          "_name": "",
+          "maxNumParticles": 0,
+          "particlesPerFrame": 0,
+          "burstPulse": 1,
+          "simulation": {
+            "_force": 0,
+            "direction": 0,
+            "energy": 0,
+            "_explosionShape": "",
+            "_gravity": 0,
+            "_airFriction": 0
+          },
+          "_particlesArr": [],
+          "particlesList": []
+        }
+      }
+    ],
+    "particleSystem": {
+      "size": 64,
+      "canvasId": 0,
+      "offsetY": 0,
+      "blend": 1,
+      "bgColor": 4278190080,
+      "emitter": {
+        "_lifeTime": 0,
+        "_isEmitter": 0,
+        "_frames": [],
+        "id": 0,
+        "spriteId": 0,
+        "explosionAnimation": "",
+        "fuseTime": 0,
+        "_name": "",
+        "maxNumParticles": 0,
+        "particlesPerFrame": 0,
+        "burstPulse": 1,
+        "simulation": {
+          "_force": 0,
+          "direction": 0,
+          "energy": 0,
+          "_explosionShape": "",
+          "_gravity": 0,
+          "_airFriction": 0
+        },
+        "_particlesArr": [],
+        "particlesList": []
+      }
+    },
+    "mask": {
+      "type": ""
+    },
+    "model": {
+      "dimensions": {
+        "x": 1,
+        "y": 1,
+        "z": 1,
+        "centerZ": 0
+      },
+      "directions": [
+        {
+          "id": 0
+        },
+        {
+          "id": 90
+        }
+      ],
+      "populated": 1,
+      "directionIds": [
+        0,
+        90
+      ]
+    }
+  },
+  "visualization": {
+    "type": "xmas13_snowflake9",
+    "visualizations": [
+      {
+        "size": 1,
+        "angle": 360,
+        "directions": [],
+        "colors": [],
+        "layers": [],
+        "animations": [],
+        "layerCount": 1,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": -3.4028235E+38,
+                "y": -3.4028235E+38,
+                "z": -3.4028235E+38
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      },
+      {
+        "size": 64,
+        "angle": 45,
+        "directions": [
+          {
+            "id": 0,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "id": "1",
+                "x": "0",
+                "y": "0",
+                "z": "0",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              }
+            ]
+          }
+        ],
+        "colors": [],
+        "layers": [
+          {
+            "id": "0",
+            "x": "",
+            "y": "",
+            "z": "",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        ],
+        "animations": [
+          {
+            "id": 0,
+            "randomStart": 0,
+            "transitionFrom": "",
+            "transitionTo": "",
+            "immediateChangeFrom": "",
+            "layers": [
+              {
+                "id": 0,
+                "loopCountString": "",
+                "randomString": "",
+                "frameRepeatString": "",
+                "frameSequences": [],
+                "loopCount": 1,
+                "frameRepeat": 1,
+                "random": 0
+              },
+              {
+                "id": 1,
+                "loopCountString": "0",
+                "randomString": "",
+                "frameRepeatString": "1",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 1,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 2,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 3,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 4,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 5,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 23
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 6,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 7,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 8,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 9,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 10,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 23
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 11,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 12,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 13,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 14,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 15,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 48
+                      }
+                    ],
+                    "frameIndexes": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18,
+                      18
+                    ],
+                    "frameRepeats": [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      23,
+                      22,
+                      21,
+                      20,
+                      19,
+                      18,
+                      17,
+                      16,
+                      15,
+                      14,
+                      13,
+                      12,
+                      11,
+                      10,
+                      9,
+                      8,
+                      7,
+                      6,
+                      5,
+                      4,
+                      3,
+                      2,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      23,
+                      22,
+                      21,
+                      20,
+                      19,
+                      18,
+                      17,
+                      16,
+                      15,
+                      14,
+                      13,
+                      12,
+                      11,
+                      10,
+                      9,
+                      8,
+                      7,
+                      6,
+                      5,
+                      4,
+                      3,
+                      2,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      48,
+                      47,
+                      46,
+                      45,
+                      44,
+                      43,
+                      42,
+                      41,
+                      40,
+                      39,
+                      38,
+                      37,
+                      36,
+                      35,
+                      34,
+                      33,
+                      32,
+                      31,
+                      30,
+                      29,
+                      28,
+                      27,
+                      26,
+                      25,
+                      24,
+                      23,
+                      22,
+                      21,
+                      20,
+                      19,
+                      18,
+                      17,
+                      16,
+                      15,
+                      14,
+                      13,
+                      12,
+                      11,
+                      10,
+                      9,
+                      8,
+                      7,
+                      6,
+                      5,
+                      4,
+                      3,
+                      2,
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 0,
+                "frameRepeat": 1,
+                "random": 0
+              }
+            ]
+          }
+        ],
+        "layerCount": 2,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      }
+    ],
+    "typeLower": "xmas13_snowflake9",
+    "defaultVisualization": {
+      "size": 64,
+      "angle": 45,
+      "directions": [
+        {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            {
+              "id": "1",
+              "x": "0",
+              "y": "0",
+              "z": "0",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "layers": [
+        {
+          "id": "0",
+          "x": "",
+          "y": "",
+          "z": "",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "animations": [
+        {
+          "id": 0,
+          "randomStart": 0,
+          "transitionFrom": "",
+          "transitionTo": "",
+          "immediateChangeFrom": "",
+          "layers": [
+            {
+              "id": 0,
+              "loopCountString": "",
+              "randomString": "",
+              "frameRepeatString": "",
+              "frameSequences": [],
+              "loopCount": 1,
+              "frameRepeat": 1,
+              "random": 0
+            },
+            {
+              "id": 1,
+              "loopCountString": "0",
+              "randomString": "",
+              "frameRepeatString": "1",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 1,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 2,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 3,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 4,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 5,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 23
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 6,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 7,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 8,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 9,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 10,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 23
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 11,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 12,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 13,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 14,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 15,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 48
+                    }
+                  ],
+                  "frameIndexes": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18,
+                    18
+                  ],
+                  "frameRepeats": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    23,
+                    22,
+                    21,
+                    20,
+                    19,
+                    18,
+                    17,
+                    16,
+                    15,
+                    14,
+                    13,
+                    12,
+                    11,
+                    10,
+                    9,
+                    8,
+                    7,
+                    6,
+                    5,
+                    4,
+                    3,
+                    2,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    23,
+                    22,
+                    21,
+                    20,
+                    19,
+                    18,
+                    17,
+                    16,
+                    15,
+                    14,
+                    13,
+                    12,
+                    11,
+                    10,
+                    9,
+                    8,
+                    7,
+                    6,
+                    5,
+                    4,
+                    3,
+                    2,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    48,
+                    47,
+                    46,
+                    45,
+                    44,
+                    43,
+                    42,
+                    41,
+                    40,
+                    39,
+                    38,
+                    37,
+                    36,
+                    35,
+                    34,
+                    33,
+                    32,
+                    31,
+                    30,
+                    29,
+                    28,
+                    27,
+                    26,
+                    25,
+                    24,
+                    23,
+                    22,
+                    21,
+                    20,
+                    19,
+                    18,
+                    17,
+                    16,
+                    15,
+                    14,
+                    13,
+                    12,
+                    11,
+                    10,
+                    9,
+                    8,
+                    7,
+                    6,
+                    5,
+                    4,
+                    3,
+                    2,
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 0,
+              "frameRepeat": 1,
+              "random": 0
+            }
+          ]
+        }
+      ],
+      "layerCount": 2,
+      "defaultDirPopulated": 1,
+      "defaultDirection": {
+        "id": 0,
+        "layers": [],
+        "allLayers": [
+          {
+            "id": "0",
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "id": "1",
+            "x": "",
+            "y": "",
+            "z": "",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "dirsPopulated": 1
+    }
+  },
+  "assets": {
+    "assets": [
+      {
+        "name": "xmas13_snowflake9_64_sd_0_0",
+        "source": "",
+        "x": 25,
+        "y": 10,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_a_0_0",
+        "source": "",
+        "x": 22,
+        "y": 60,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_0",
+        "source": "",
+        "x": 15,
+        "y": 53,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_1",
+        "source": "",
+        "x": 16,
+        "y": 54,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_2",
+        "source": "",
+        "x": 17,
+        "y": 55,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_3",
+        "source": "",
+        "x": 18,
+        "y": 56,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_4",
+        "source": "",
+        "x": 20,
+        "y": 58,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_5",
+        "source": "",
+        "x": 22,
+        "y": 60,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_6",
+        "source": "",
+        "x": -16,
+        "y": 41,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_7",
+        "source": "",
+        "x": -15,
+        "y": 42,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_8",
+        "source": "",
+        "x": -14,
+        "y": 43,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_9",
+        "source": "",
+        "x": -12,
+        "y": 45,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_10",
+        "source": "",
+        "x": -10,
+        "y": 47,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_11",
+        "source": "",
+        "x": 0,
+        "y": 59,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_12",
+        "source": "",
+        "x": 1,
+        "y": 60,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_13",
+        "source": "",
+        "x": 2,
+        "y": 61,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_14",
+        "source": "",
+        "x": 4,
+        "y": 63,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_0_15",
+        "source": "",
+        "x": 6,
+        "y": 65,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_icon_a",
+        "source": "",
+        "x": 8,
+        "y": 14,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_sd_2_0",
+        "source": "xmas13_snowflake9_64_sd_0_0",
+        "x": 25,
+        "y": 10,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_a_2_0",
+        "source": "xmas13_snowflake9_64_a_0_0",
+        "x": 22,
+        "y": 60,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_0",
+        "source": "xmas13_snowflake9_64_b_0_0",
+        "x": 15,
+        "y": 53,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_1",
+        "source": "xmas13_snowflake9_64_b_0_1",
+        "x": 16,
+        "y": 54,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_2",
+        "source": "xmas13_snowflake9_64_b_0_2",
+        "x": 17,
+        "y": 55,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_3",
+        "source": "xmas13_snowflake9_64_b_0_3",
+        "x": 18,
+        "y": 56,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_4",
+        "source": "xmas13_snowflake9_64_b_0_4",
+        "x": 20,
+        "y": 58,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_5",
+        "source": "xmas13_snowflake9_64_b_0_5",
+        "x": 22,
+        "y": 60,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_6",
+        "source": "xmas13_snowflake9_64_b_0_6",
+        "x": -16,
+        "y": 41,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_7",
+        "source": "xmas13_snowflake9_64_b_0_7",
+        "x": -15,
+        "y": 42,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_8",
+        "source": "xmas13_snowflake9_64_b_0_8",
+        "x": -14,
+        "y": 43,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_9",
+        "source": "xmas13_snowflake9_64_b_0_9",
+        "x": -12,
+        "y": 45,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_10",
+        "source": "xmas13_snowflake9_64_b_0_10",
+        "x": -10,
+        "y": 47,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_11",
+        "source": "xmas13_snowflake9_64_b_0_11",
+        "x": 0,
+        "y": 59,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_12",
+        "source": "xmas13_snowflake9_64_b_0_12",
+        "x": 1,
+        "y": 60,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_13",
+        "source": "xmas13_snowflake9_64_b_0_13",
+        "x": 2,
+        "y": 61,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_14",
+        "source": "xmas13_snowflake9_64_b_0_14",
+        "x": 4,
+        "y": 63,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "xmas13_snowflake9_64_b_2_15",
+        "source": "xmas13_snowflake9_64_b_0_15",
+        "x": 6,
+        "y": 65,
+        "flipH": 1,
+        "flipV": 0,
+        "usesPalette": 0
+      }
+    ]
+  },
+  "asAssets": {
+    "assetDataMapping": [
+      {
+        "fileName": "manifest",
+        "source": "manifest.xml"
+      },
+      {
+        "fileName": "index",
+        "source": "index.xml"
+      },
+      {
+        "fileName": "xmas13_snowflake9_visualization",
+        "source": "xmas13_snowflake9_visualization.xml"
+      },
+      {
+        "fileName": "xmas13_snowflake9_assets",
+        "source": "xmas13_snowflake9_assets.xml"
+      },
+      {
+        "fileName": "xmas13_snowflake9_logic",
+        "source": "xmas13_snowflake9_logic.xml"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_sd_0_0",
+        "source": "xmas13_snowflake9_64_sd_0_0.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_a_0_0",
+        "source": "xmas13_snowflake9_64_a_0_0.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_0",
+        "source": "xmas13_snowflake9_64_b_0_0.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_1",
+        "source": "xmas13_snowflake9_64_b_0_1.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_2",
+        "source": "xmas13_snowflake9_64_b_0_2.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_3",
+        "source": "xmas13_snowflake9_64_b_0_3.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_4",
+        "source": "xmas13_snowflake9_64_b_0_4.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_5",
+        "source": "xmas13_snowflake9_64_b_0_5.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_6",
+        "source": "xmas13_snowflake9_64_b_0_6.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_7",
+        "source": "xmas13_snowflake9_64_b_0_7.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_8",
+        "source": "xmas13_snowflake9_64_b_0_8.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_9",
+        "source": "xmas13_snowflake9_64_b_0_9.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_10",
+        "source": "xmas13_snowflake9_64_b_0_10.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_11",
+        "source": "xmas13_snowflake9_64_b_0_11.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_12",
+        "source": "xmas13_snowflake9_64_b_0_12.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_13",
+        "source": "xmas13_snowflake9_64_b_0_13.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_14",
+        "source": "xmas13_snowflake9_64_b_0_14.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_64_b_0_15",
+        "source": "xmas13_snowflake9_64_b_0_15.png"
+      },
+      {
+        "fileName": "xmas13_snowflake9_icon_a",
+        "source": "xmas13_snowflake9_icon_a.png"
+      }
+    ]
+  }
+}

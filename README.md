@@ -9,3 +9,6 @@ Cross platform tool, works for Windows, MacOS & Linux!
 For any questions, confusion, gratitude visit http://arcturus.pw
 
 Feel free to make a pull request!
+
+Data contains the older Unity XML style data. (2019.3.9f1)
+DataJson contains the new JSON style data. (2020.3.15f2)
