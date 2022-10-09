@@ -1,0 +1,356 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5115663347374922130
+  },
+  "m_Name": "Hoverplank",
+  "xmlAsset": {
+    "avatarPartAsset": {
+      "name": "",
+      "parts": [
+        {
+          "name": "h_std_fx191_1_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-24,20"
+          }
+        },
+        {
+          "name": "h_std_fx191_2_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-14,8"
+          }
+        },
+        {
+          "name": "h_std_fx191_1_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-26,24"
+          }
+        },
+        {
+          "name": "h_std_fx191_2_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-26,6"
+          }
+        },
+        {
+          "name": "h_std_fx191_1_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-12,21"
+          }
+        },
+        {
+          "name": "h_std_fx191_2_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-36,9"
+          }
+        },
+        {
+          "name": "h_std_fx191_1_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-15,14"
+          }
+        },
+        {
+          "name": "h_std_fx191_2_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-49,-4"
+          }
+        },
+        {
+          "name": "h_std_fx191_1_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-15,14"
+          }
+        },
+        {
+          "name": "h_std_fx191_2_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-18,-4"
+          }
+        }
+      ],
+      "assetAliases": [
+        {
+          "name": "h_std_fx191_1_1_4_0",
+          "like": "",
+          "link": "h_std_fx191_1_1_0_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_std_fx191_1_1_5_0",
+          "like": "",
+          "link": "h_std_fx191_1_1_1_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_std_fx191_1_1_6_0",
+          "like": "",
+          "link": "h_std_fx191_1_1_2_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_std_fx191_2_1_4_0",
+          "like": "",
+          "link": "h_std_fx191_2_1_0_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_std_fx191_2_1_5_0",
+          "like": "",
+          "link": "h_std_fx191_2_1_1_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_std_fx191_2_1_6_0",
+          "like": "",
+          "link": "h_std_fx191_2_1_2_0",
+          "flipH": 0,
+          "flipV": 0
+        }
+      ]
+    }
+  },
+  "effectXmlData": {
+    "name": "fx.191",
+    "description": "Hoverplank",
+    "resetOnToggle": 0,
+    "sprites": [
+      {
+        "id": "avatar",
+        "ink": 0,
+        "member": "",
+        "hasStaticY": 0,
+        "hasDirections": 0,
+        "directions": []
+      },
+      {
+        "id": "fx191_1",
+        "ink": 8,
+        "member": "std_fx191_1_1",
+        "hasStaticY": 0,
+        "hasDirections": 1,
+        "directions": [
+          {
+            "id": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 1,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 2,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 3,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 4,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 5,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 6,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 7,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          }
+        ]
+      },
+      {
+        "id": "fx191_2",
+        "ink": 8,
+        "member": "std_fx191_2_1",
+        "hasStaticY": 0,
+        "hasDirections": 1,
+        "directions": [
+          {
+            "id": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 1,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 2,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 3,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 4,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 5,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 6,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 7,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          }
+        ]
+      }
+    ],
+    "avatar": {
+      "foregroundString": "",
+      "backgroundString": "",
+      "ink": 0
+    },
+    "directions": [],
+    "removes": [],
+    "adds": [],
+    "overrides": [],
+    "frames": [
+      {
+        "repeats": 0,
+        "bodyparts": [
+          {
+            "id": "leftarm",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "rightarm",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "torso",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ],
+        "effects": [
+          {
+            "id": "avatar",
+            "action": "",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": -8,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "fx191_1",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "fx191_2",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5115663347374922130
+  },
+  "m_Name": "Ringmaster",
+  "xmlAsset": {
+    "avatarPartAsset": {
+      "name": "",
+      "parts": [
+        {
+          "name": "h_std_fx115_1_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-14,88"
+          }
+        },
+        {
+          "name": "h_std_fx115_1_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-14,92"
+          }
+        },
+        {
+          "name": "h_std_fx115_1_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-7,90"
+          }
+        },
+        {
+          "name": "h_std_fx115_1_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-16,89"
+          }
+        },
+        {
+          "name": "h_std_fx115_1_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-16,87"
+          }
+        },
+        {
+          "name": "h_std_fx115_2_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-35,66"
+          }
+        },
+        {
+          "name": "h_std_fx115_2_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-32,63"
+          }
+        },
+        {
+          "name": "h_std_fx115_2_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-23,61"
+          }
+        },
+        {
+          "name": "h_std_fx115_2_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-17,56"
+          }
+        },
+        {
+          "name": "h_std_fx115_2_1_4_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-12,61"
+          }
+        },
+        {
+          "name": "h_std_fx115_2_1_5_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-12,63"
+          }
+        },
+        {
+          "name": "h_std_fx115_2_1_6_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-10,66"
+          }
+        },
+        {
+          "name": "h_std_fx115_2_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-13,61"
+          }
+        }
+      ],
+      "assetAliases": []
+    }
+  },
+  "effectXmlData": {
+    "name": "fx.115",
+    "description": "Ringmaster",
+    "resetOnToggle": 0,
+    "sprites": [
+      {
+        "id": "fx115_2",
+        "ink": 33,
+        "member": "std_fx115_2_1",
+        "hasStaticY": 0,
+        "hasDirections": 1,
+        "directions": [
+          {
+            "id": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 1,
+            "dx": 0,
+            "dy": -2,
+            "dz": 2
+          },
+          {
+            "id": 2,
+            "dx": 3,
+            "dy": -3,
+            "dz": 2
+          },
+          {
+            "id": 3,
+            "dx": 3,
+            "dy": -3,
+            "dz": 2
+          },
+          {
+            "id": 4,
+            "dx": 3,
+            "dy": -3,
+            "dz": 2
+          },
+          {
+            "id": 5,
+            "dx": 6,
+            "dy": -2,
+            "dz": 2
+          },
+          {
+            "id": 6,
+            "dx": 6,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 7,
+            "dx": 3,
+            "dy": 0,
+            "dz": 2
+          }
+        ]
+      }
+    ],
+    "avatar": {
+      "foregroundString": "",
+      "backgroundString": "",
+      "ink": 0
+    },
+    "directions": [],
+    "removes": [
+      {
+        "id": "ha"
+      },
+      {
+        "id": "he"
+      },
+      {
+        "id": "hrb"
+      },
+      {
+        "id": "wa"
+      },
+      {
+        "id": "fa"
+      },
+      {
+        "id": "ey"
+      },
+      {
+        "id": "ea"
+      },
+      {
+        "id": "ca"
+      },
+      {
+        "id": "cc"
+      },
+      {
+        "id": "ch"
+      },
+      {
+        "id": "lc"
+      },
+      {
+        "id": "rc"
+      },
+      {
+        "id": "ls"
+      },
+      {
+        "id": "rs"
+      }
+    ],
+    "adds": [
+      {
+        "id": "fx115_1",
+        "align": "top",
+        "_base": "",
+        "ink": "",
+        "blendString": ""
+      }
+    ],
+    "overrides": [
+      {
+        "overridingName": "mv_ringmaster",
+        "overriddenName": "mv",
+        "frames": [
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx115_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "fx115_2",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 1,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx115_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "fx115_2",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 2,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx115_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "fx115_2",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 3,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx115_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "fx115_2",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "repeats": 0,
+        "bodyparts": [
+          {
+            "id": "head",
+            "action": "",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "torso",
+            "action": "",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "leftarm",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "rightarm",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ],
+        "effects": [
+          {
+            "id": "fx115_1",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "fx115_2",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ]
+      }
+    ]
+  }
+}

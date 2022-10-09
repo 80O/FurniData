@@ -1,0 +1,908 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5115663347374922130
+  },
+  "m_Name": "hh_room_lobby",
+  "xmlAsset": {
+    "avatarPartAsset": {
+      "name": "hh_room_lobby",
+      "parts": [
+        {
+          "name": "lobby_background",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_door_a",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_left_side_bit2",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_pipe_nest",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_right_side_bit",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_pipe",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_window_bit",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_left_side_bit1",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_flower_bit",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_mask_04",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_mask_03",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_mask_02",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_mask_01",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_window_1",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_bubble_1",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_bubble_2",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_bubble_3",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_bubble_4",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_bubble_5",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_coloredlight_1",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "lobby_coloredlight_2",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "adframe_lobby_a_left",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "ad_pixel",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_telkka_32_a_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_telkka_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_telkka_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_telkka_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_telkka_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower1_32_a_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower1_32_sd_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower1_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower1_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower1_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower1_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower2_32_a_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower2_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower2_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower2_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_flower2_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table1_32_a_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table1_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table1_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table1_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table1_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf1_32_a_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf1_32_b_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf1_32_a_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf1_32_b_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf1_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf1_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf1_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf1_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_piste_32_a_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_piste_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_piste_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_piste_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_piste_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2_32_sd_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2_32_a_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2_32_b_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2_32_a_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2_32_a_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2c_32_a_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2c_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2c_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2c_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2c_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2b_32_a_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2b_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2b_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2b_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_table2b_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2b_32_a_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2b_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2b_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2b_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2b_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2c_32_a_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2c_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2c_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2c_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2c_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2d_32_a_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2d_32_b_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2d_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2d_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2d_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_chairf2d_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_roommatic_32_a_4_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_roommatic_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_roommatic_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_roommatic_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_roommatic_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_watermatic_32_a_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_watermatic_visualization",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_watermatic_logic",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_watermatic_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_watermatic_index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "hh_room_lobby_assets",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        },
+        {
+          "name": "index",
+          "mimeType": "text/xml",
+          "param": {
+            "key": "",
+            "value": ""
+          }
+        }
+      ],
+      "assetAliases": []
+    }
+  },
+  "effectXmlData": {
+    "name": "",
+    "description": "",
+    "resetOnToggle": 0,
+    "sprites": [],
+    "avatar": {
+      "foregroundString": "",
+      "backgroundString": "",
+      "ink": 0
+    },
+    "directions": [],
+    "removes": [],
+    "adds": [],
+    "overrides": [],
+    "frames": []
+  }
+}

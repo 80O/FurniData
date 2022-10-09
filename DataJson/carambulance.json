@@ -1,0 +1,256 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5115663347374922130
+  },
+  "m_Name": "Carambulance",
+  "xmlAsset": {
+    "avatarPartAsset": {
+      "name": "",
+      "parts": [
+        {
+          "name": "h_std_fx20_2_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-1,84"
+          }
+        },
+        {
+          "name": "h_std_fx20_3_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-9,62"
+          }
+        },
+        {
+          "name": "h_std_fx20_1_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-25,14"
+          }
+        },
+        {
+          "name": "h_std_fx20_2_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-9,93"
+          }
+        },
+        {
+          "name": "h_std_fx20_3_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-38,84"
+          }
+        },
+        {
+          "name": "h_std_fx20_1_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-38,84"
+          }
+        },
+        {
+          "name": "h_std_fx20_2_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-1,84"
+          }
+        },
+        {
+          "name": "h_std_fx20_3_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-31,64"
+          }
+        },
+        {
+          "name": "h_std_fx20_1_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-33,58"
+          }
+        },
+        {
+          "name": "h_std_fx20_2_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-7,92"
+          }
+        },
+        {
+          "name": "h_std_fx20_3_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-17,57"
+          }
+        },
+        {
+          "name": "h_std_fx20_1_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-29,26"
+          }
+        },
+        {
+          "name": "h_std_fx20_2_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-9,94"
+          }
+        },
+        {
+          "name": "h_std_fx20_3_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-18,56"
+          }
+        },
+        {
+          "name": "h_std_fx20_1_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-31,49"
+          }
+        }
+      ],
+      "assetAliases": []
+    }
+  },
+  "effectXmlData": {
+    "name": "fx.20",
+    "description": "Car ambulance",
+    "resetOnToggle": 0,
+    "sprites": [],
+    "avatar": {
+      "foregroundString": "",
+      "backgroundString": "",
+      "ink": 0
+    },
+    "directions": [],
+    "removes": [
+      {
+        "id": "sh"
+      }
+    ],
+    "adds": [
+      {
+        "id": "fx20_1",
+        "align": "bottom",
+        "_base": "",
+        "ink": "",
+        "blendString": ""
+      },
+      {
+        "id": "fx20_2",
+        "align": "top",
+        "_base": "",
+        "ink": "",
+        "blendString": ""
+      },
+      {
+        "id": "fx20_3",
+        "align": "top",
+        "_base": "",
+        "ink": "8",
+        "blendString": "60"
+      }
+    ],
+    "overrides": [],
+    "frames": [
+      {
+        "repeats": 0,
+        "bodyparts": [
+          {
+            "id": "torso",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "leftarm",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "rightarm",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ],
+        "effects": [
+          {
+            "id": "fx20_1",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "fx20_2",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "fx20_3",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ]
+      }
+    ]
+  }
+}

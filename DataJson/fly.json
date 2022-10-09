@@ -1,0 +1,204 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5115663347374922130
+  },
+  "m_Name": "Fly",
+  "xmlAsset": {
+    "avatarPartAsset": {
+      "name": "",
+      "parts": [
+        {
+          "name": "h_std_fx116_1_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-19,104"
+          }
+        },
+        {
+          "name": "h_std_fx116_1_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-15,101"
+          }
+        },
+        {
+          "name": "h_std_fx116_1_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-17,102"
+          }
+        },
+        {
+          "name": "h_std_fx116_1_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-13,103"
+          }
+        },
+        {
+          "name": "h_std_fx116_1_1_4_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "1,102"
+          }
+        },
+        {
+          "name": "h_std_fx116_1_1_5_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "4,101"
+          }
+        },
+        {
+          "name": "h_std_fx116_1_1_6_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "3,104"
+          }
+        },
+        {
+          "name": "h_std_fx116_1_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-13,104"
+          }
+        }
+      ],
+      "assetAliases": []
+    }
+  },
+  "effectXmlData": {
+    "name": "fx.116",
+    "description": "Fly",
+    "resetOnToggle": 0,
+    "sprites": [
+      {
+        "id": "fx116_1",
+        "ink": 0,
+        "member": "std_fx116_1_1",
+        "hasStaticY": 0,
+        "hasDirections": 1,
+        "directions": [
+          {
+            "id": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 1,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 2,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 3,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 4,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 5,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 6,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          },
+          {
+            "id": 7,
+            "dx": 0,
+            "dy": 0,
+            "dz": 2
+          }
+        ]
+      }
+    ],
+    "avatar": {
+      "foregroundString": "",
+      "backgroundString": "",
+      "ink": 0
+    },
+    "directions": [],
+    "removes": [
+      {
+        "id": "ha"
+      },
+      {
+        "id": "he"
+      },
+      {
+        "id": "hr"
+      },
+      {
+        "id": "hrb"
+      },
+      {
+        "id": "hd"
+      }
+    ],
+    "adds": [],
+    "overrides": [],
+    "frames": [
+      {
+        "repeats": 0,
+        "bodyparts": [
+          {
+            "id": "head",
+            "action": "",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ],
+        "effects": [
+          {
+            "id": "fx116_1",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ]
+      }
+    ]
+  }
+}

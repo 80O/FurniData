@@ -1,0 +1,233 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5115663347374922130
+  },
+  "m_Name": "Skateboard2",
+  "xmlAsset": {
+    "avatarPartAsset": {
+      "name": "",
+      "parts": [
+        {
+          "name": "h_std_fx72_1_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-11,30"
+          }
+        },
+        {
+          "name": "h_std_fx72_1_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-8,28"
+          }
+        },
+        {
+          "name": "h_std_fx72_1_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-9,34"
+          }
+        },
+        {
+          "name": "h_std_fx72_1_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-20,39"
+          }
+        },
+        {
+          "name": "h_std_fx72_1_1_4_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-11,35"
+          }
+        },
+        {
+          "name": "h_std_fx72_1_1_5_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-8,28"
+          }
+        },
+        {
+          "name": "h_std_fx72_1_1_6_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-10,31"
+          }
+        },
+        {
+          "name": "h_std_fx72_1_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-22,39"
+          }
+        }
+      ],
+      "assetAliases": []
+    }
+  },
+  "effectXmlData": {
+    "name": "fx.72",
+    "description": "Skateboard 2",
+    "resetOnToggle": 0,
+    "sprites": [
+      {
+        "id": "avatar",
+        "ink": 0,
+        "member": "",
+        "hasStaticY": 0,
+        "hasDirections": 0,
+        "directions": []
+      },
+      {
+        "id": "fx72_1",
+        "ink": 8,
+        "member": "std_fx72_1_1",
+        "hasStaticY": 0,
+        "hasDirections": 1,
+        "directions": [
+          {
+            "id": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 1,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 2,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 3,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 4,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 5,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 6,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 7,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          }
+        ]
+      }
+    ],
+    "avatar": {
+      "foregroundString": "",
+      "backgroundString": "",
+      "ink": 0
+    },
+    "directions": [
+      {
+        "offset": 2
+      }
+    ],
+    "removes": [],
+    "adds": [],
+    "overrides": [],
+    "frames": [
+      {
+        "repeats": 0,
+        "bodyparts": [
+          {
+            "id": "leftarm",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "rightarm",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "torso",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ],
+        "effects": [
+          {
+            "id": "avatar",
+            "action": "",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": -10,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "fx72_1",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 10,
+            "dz": 0,
+            "dd": 6,
+            "items": []
+          }
+        ]
+      }
+    ]
+  }
+}

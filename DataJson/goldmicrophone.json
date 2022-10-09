@@ -1,0 +1,194 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5115663347374922130
+  },
+  "m_Name": "GoldMicrophone",
+  "xmlAsset": {
+    "avatarPartAsset": {
+      "name": "",
+      "parts": [
+        {
+          "name": "h_std_fx139_1_1_6_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-9,63"
+          }
+        },
+        {
+          "name": "h_std_fx139_1_1_5_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-2,56"
+          }
+        },
+        {
+          "name": "h_std_fx139_1_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-41,46"
+          }
+        },
+        {
+          "name": "h_std_fx139_1_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-29,50"
+          }
+        },
+        {
+          "name": "h_std_fx139_1_1_4_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-8,54"
+          }
+        },
+        {
+          "name": "h_std_fx139_1_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-38,52"
+          }
+        },
+        {
+          "name": "h_std_fx139_1_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-42,56"
+          }
+        },
+        {
+          "name": "h_std_fx139_1_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-42,63"
+          }
+        }
+      ],
+      "assetAliases": [
+        {
+          "name": "h_drk_ri_fx139_1_0_0",
+          "like": "",
+          "link": "h_std_fx139_1_1_0_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_drk_ri_fx139_1_1_0",
+          "like": "",
+          "link": "h_std_fx139_1_1_1_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_drk_ri_fx139_1_2_0",
+          "like": "",
+          "link": "h_std_fx139_1_1_2_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_drk_ri_fx139_1_3_0",
+          "like": "",
+          "link": "h_std_fx139_1_1_3_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_drk_ri_fx139_1_4_0",
+          "like": "",
+          "link": "h_std_fx139_1_1_4_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_drk_ri_fx139_1_5_0",
+          "like": "",
+          "link": "h_std_fx139_1_1_5_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_drk_ri_fx139_1_6_0",
+          "like": "",
+          "link": "h_std_fx139_1_1_6_0",
+          "flipH": 0,
+          "flipV": 0
+        },
+        {
+          "name": "h_drk_ri_fx139_1_7_0",
+          "like": "",
+          "link": "h_std_fx139_1_1_7_0",
+          "flipH": 0,
+          "flipV": 0
+        }
+      ]
+    }
+  },
+  "effectXmlData": {
+    "name": "fx.139",
+    "description": "Gold Microphone",
+    "resetOnToggle": 0,
+    "sprites": [],
+    "avatar": {
+      "foregroundString": "",
+      "backgroundString": "",
+      "ink": 0
+    },
+    "directions": [],
+    "removes": [],
+    "adds": [
+      {
+        "id": "ri",
+        "align": "rightitem",
+        "_base": "fx139_1",
+        "ink": "",
+        "blendString": ""
+      }
+    ],
+    "overrides": [],
+    "frames": [
+      {
+        "repeats": 0,
+        "bodyparts": [
+          {
+            "id": "rightarm",
+            "action": "UseItem",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "rightitem",
+            "action": "UseItem",
+            "_base": "fx139_1",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ],
+        "effects": []
+      }
+    ]
+  }
+}

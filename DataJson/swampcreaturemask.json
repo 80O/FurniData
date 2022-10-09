@@ -1,0 +1,216 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5115663347374922130
+  },
+  "m_Name": "SwampCreatureMask",
+  "xmlAsset": {
+    "avatarPartAsset": {
+      "name": "",
+      "parts": [
+        {
+          "name": "h_std_fx81_1_1_6_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-20,73"
+          }
+        },
+        {
+          "name": "h_std_fx81_1_1_5_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-20,73"
+          }
+        },
+        {
+          "name": "h_std_fx81_1_1_4_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-21,74"
+          }
+        },
+        {
+          "name": "h_std_fx81_1_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-18,72"
+          }
+        },
+        {
+          "name": "h_std_fx81_1_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-18,74"
+          }
+        },
+        {
+          "name": "h_std_fx81_1_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-17,74"
+          }
+        },
+        {
+          "name": "h_std_fx81_1_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-16,73"
+          }
+        },
+        {
+          "name": "h_std_fx81_1_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-16,73"
+          }
+        }
+      ],
+      "assetAliases": []
+    }
+  },
+  "effectXmlData": {
+    "name": "fx.81",
+    "description": "Swamp Creature Mask",
+    "resetOnToggle": 0,
+    "sprites": [
+      {
+        "id": "fx81_1",
+        "ink": 0,
+        "member": "std_fx81_1_1",
+        "hasStaticY": 0,
+        "hasDirections": 1,
+        "directions": [
+          {
+            "id": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 1,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 2,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 3,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 4,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 5,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 6,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 7,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          }
+        ]
+      }
+    ],
+    "avatar": {
+      "foregroundString": "",
+      "backgroundString": "",
+      "ink": 0
+    },
+    "directions": [],
+    "removes": [
+      {
+        "id": "ha"
+      },
+      {
+        "id": "he"
+      },
+      {
+        "id": "hr"
+      },
+      {
+        "id": "hrb"
+      },
+      {
+        "id": "hd"
+      },
+      {
+        "id": "fc"
+      },
+      {
+        "id": "ey"
+      },
+      {
+        "id": "fa"
+      },
+      {
+        "id": "ea"
+      }
+    ],
+    "adds": [],
+    "overrides": [],
+    "frames": [
+      {
+        "repeats": 0,
+        "bodyparts": [
+          {
+            "id": "head",
+            "action": "",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ],
+        "effects": [
+          {
+            "id": "fx81_1",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          }
+        ]
+      }
+    ]
+  }
+}

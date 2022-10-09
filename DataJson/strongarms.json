@@ -1,0 +1,629 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5115663347374922130
+  },
+  "m_Name": "StrongArms",
+  "xmlAsset": {
+    "avatarPartAsset": {
+      "name": "",
+      "parts": [
+        {
+          "name": "h_std_fx114_1_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-14,49"
+          }
+        },
+        {
+          "name": "h_std_fx114_1_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-41,51"
+          }
+        },
+        {
+          "name": "h_std_fx114_1_1_6_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-39,51"
+          }
+        },
+        {
+          "name": "h_std_fx114_1_1_5_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-28,48"
+          }
+        },
+        {
+          "name": "h_std_fx114_1_1_4_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-17,53"
+          }
+        },
+        {
+          "name": "h_std_fx114_1_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-37,53"
+          }
+        },
+        {
+          "name": "h_std_fx114_1_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-25,48"
+          }
+        },
+        {
+          "name": "h_std_fx114_1_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-15,51"
+          }
+        },
+        {
+          "name": "h_std_fx114_2_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-41,49"
+          }
+        },
+        {
+          "name": "h_std_fx114_2_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-14,51"
+          }
+        },
+        {
+          "name": "h_std_fx114_2_1_6_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-18,45"
+          }
+        },
+        {
+          "name": "h_std_fx114_2_1_5_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-28,48"
+          }
+        },
+        {
+          "name": "h_std_fx114_2_1_4_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-38,47"
+          }
+        },
+        {
+          "name": "h_std_fx114_2_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-15,47"
+          }
+        },
+        {
+          "name": "h_std_fx114_2_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-25,48"
+          }
+        },
+        {
+          "name": "h_std_fx114_2_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-36,45"
+          }
+        }
+      ],
+      "assetAliases": []
+    }
+  },
+  "effectXmlData": {
+    "name": "fx.114",
+    "description": "Strong Arms",
+    "resetOnToggle": 0,
+    "sprites": [
+      {
+        "id": "fx114_1",
+        "ink": 0,
+        "member": "std_fx114_1_1",
+        "hasStaticY": 0,
+        "hasDirections": 1,
+        "directions": [
+          {
+            "id": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 1,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 2,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 3,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 4,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 5,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 6,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1
+          },
+          {
+            "id": 7,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          }
+        ]
+      },
+      {
+        "id": "fx114_2",
+        "ink": 0,
+        "member": "std_fx114_2_1",
+        "hasStaticY": 0,
+        "hasDirections": 1,
+        "directions": [
+          {
+            "id": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 1,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 2,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 3,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 4,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 5,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 6,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          },
+          {
+            "id": 7,
+            "dx": 0,
+            "dy": 0,
+            "dz": 1
+          }
+        ]
+      }
+    ],
+    "avatar": {
+      "foregroundString": "",
+      "backgroundString": "",
+      "ink": 0
+    },
+    "directions": [],
+    "removes": [
+      {
+        "id": "lh"
+      },
+      {
+        "id": "rh"
+      },
+      {
+        "id": "lc"
+      },
+      {
+        "id": "rc"
+      },
+      {
+        "id": "ls"
+      },
+      {
+        "id": "rs"
+      },
+      {
+        "id": "rhs"
+      },
+      {
+        "id": "lhs"
+      }
+    ],
+    "adds": [],
+    "overrides": [
+      {
+        "overridingName": "armwalk",
+        "overriddenName": "mv",
+        "frames": [
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "leftarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx114_1",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "fx114_2",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "leftarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx114_1",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 2,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "fx114_2",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 2,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "leftarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx114_1",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "fx114_2",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "leftarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx114_1",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 2,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "fx114_2",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 2,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "overridingName": "armstand",
+        "overriddenName": "std",
+        "frames": [
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "leftarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx114_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "fx114_2",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "overridingName": "armsit",
+        "overriddenName": "sit",
+        "frames": [
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "leftarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx114_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "fx114_2",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "frames": []
+  }
+}

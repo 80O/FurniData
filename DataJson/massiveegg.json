@@ -1,0 +1,797 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -5115663347374922130
+  },
+  "m_Name": "MassiveEgg",
+  "xmlAsset": {
+    "avatarPartAsset": {
+      "name": "",
+      "parts": [
+        {
+          "name": "h_std_fx154_sd_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-10,10"
+          }
+        },
+        {
+          "name": "h_std_fx154_1_1_0_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-4,61"
+          }
+        },
+        {
+          "name": "h_std_fx154_1_1_1_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-4,61"
+          }
+        },
+        {
+          "name": "h_std_fx154_1_1_2_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-4,61"
+          }
+        },
+        {
+          "name": "h_std_fx154_1_1_4_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-4,61"
+          }
+        },
+        {
+          "name": "h_std_fx154_1_1_3_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-4,61"
+          }
+        },
+        {
+          "name": "h_std_fx154_1_1_7_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-4,61"
+          }
+        },
+        {
+          "name": "h_std_fx154_1_1_5_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-4,61"
+          }
+        },
+        {
+          "name": "h_std_fx154_1_1_6_0",
+          "mimeType": "image/png",
+          "param": {
+            "key": "offset",
+            "value": "-4,61"
+          }
+        }
+      ],
+      "assetAliases": []
+    }
+  },
+  "effectXmlData": {
+    "name": "fx.154",
+    "description": "Massive Egg",
+    "resetOnToggle": 0,
+    "sprites": [],
+    "avatar": {
+      "foregroundString": "",
+      "backgroundString": "",
+      "ink": 0
+    },
+    "directions": [],
+    "removes": [
+      {
+        "id": "ha"
+      },
+      {
+        "id": "he"
+      },
+      {
+        "id": "hr"
+      },
+      {
+        "id": "hrb"
+      },
+      {
+        "id": "ey"
+      },
+      {
+        "id": "fa"
+      },
+      {
+        "id": "fc"
+      },
+      {
+        "id": "hd"
+      },
+      {
+        "id": "ca"
+      },
+      {
+        "id": "cc"
+      },
+      {
+        "id": "ch"
+      },
+      {
+        "id": "wa"
+      },
+      {
+        "id": "lh"
+      },
+      {
+        "id": "ls"
+      },
+      {
+        "id": "lc"
+      },
+      {
+        "id": "li"
+      },
+      {
+        "id": "rh"
+      },
+      {
+        "id": "rc"
+      },
+      {
+        "id": "rs"
+      }
+    ],
+    "adds": [
+      {
+        "id": "fx154_1",
+        "align": "top",
+        "_base": "",
+        "ink": "",
+        "blendString": ""
+      }
+    ],
+    "overrides": [
+      {
+        "overridingName": "mv_massiveegg",
+        "overriddenName": "mv",
+        "frames": [
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx154_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": -15,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 1,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "bottom",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx154_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": -15,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 2,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx154_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": -16,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 3,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx154_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": -16,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "overridingName": "sign_massiveegg",
+        "overriddenName": "sign",
+        "frames": [
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "Sign",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 2,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx154_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": -15,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "Sign",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 3,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx154_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": -15,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "Sign",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx154_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": -15,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          },
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "head",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "leftarm",
+                "action": "Sign",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "rightarm",
+                "action": "",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              },
+              {
+                "id": "torso",
+                "action": "Move",
+                "_base": "",
+                "frame": 1,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx154_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": -15,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "overridingName": "sit_massiveegg",
+        "overriddenName": "sit",
+        "frames": [
+          {
+            "repeats": 0,
+            "bodyparts": [
+              {
+                "id": "torso",
+                "action": "Sit",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": 0,
+                "dz": 0,
+                "dd": 0,
+                "items": []
+              }
+            ],
+            "effects": [
+              {
+                "id": "fx154_1",
+                "action": "Default",
+                "_base": "",
+                "frame": 0,
+                "dx": 0,
+                "dy": -28,
+                "dz": -1,
+                "dd": 0,
+                "items": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "repeats": 0,
+        "bodyparts": [
+          {
+            "id": "head",
+            "action": "",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "leftarm",
+            "action": "",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "rightarm",
+            "action": "",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": []
+          },
+          {
+            "id": "torso",
+            "action": "",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": 0,
+            "dd": 0,
+            "items": [
+              {
+                "id": "bd",
+                "_base": "fx154_1"
+              }
+            ]
+          }
+        ],
+        "effects": [
+          {
+            "id": "fx154_1",
+            "action": "Default",
+            "_base": "",
+            "frame": 0,
+            "dx": 0,
+            "dy": 0,
+            "dz": -1,
+            "dd": 0,
+            "items": []
+          }
+        ]
+      }
+    ]
+  }
+}
