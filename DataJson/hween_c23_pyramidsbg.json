@@ -1,0 +1,2694 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 1281540464633490153
+  },
+  "m_Name": "hween_c23_pyramidsbg",
+  "idHash": 0,
+  "id": "hween_c23_pyramidsbg",
+  "main": {
+    "roomItemData": {
+      "runtimeClass": "",
+      "dimensions": {
+        "x": 0,
+        "y": 0,
+        "height": 0
+      },
+      "directions": [],
+      "states": []
+    },
+    "wallItemData": {
+      "runtimeClass": "",
+      "states": [
+        {
+          "id": 0
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        }
+      ]
+    },
+    "petItemData": {
+      "runTimeClass": "",
+      "dimensions": {
+        "x": 0,
+        "y": 0,
+        "height": 0
+      },
+      "directions": [],
+      "states": []
+    },
+    "metaData": {
+      "category": {
+        "name": "other"
+      }
+    }
+  },
+  "index": {
+    "type": "hween_c23_pyramidsbg",
+    "visualization": "furniture_animated",
+    "logic": "furniture_multistate"
+  },
+  "logic": {
+    "credits": {
+      "credits": 0
+    },
+    "action": {
+      "startState": -1,
+      "link": ""
+    },
+    "customVars": [],
+    "particleSystems": [
+      {
+        "size": 64,
+        "canvasId": 0,
+        "offsetY": 0,
+        "blend": 1,
+        "bgColor": 4278190080,
+        "emitter": {
+          "_lifeTime": 0,
+          "_isEmitter": 0,
+          "_frames": [],
+          "id": 0,
+          "spriteId": 0,
+          "explosionAnimation": "",
+          "fuseTime": 0,
+          "_name": "",
+          "maxNumParticles": 0,
+          "particlesPerFrame": 0,
+          "burstPulse": 1,
+          "simulation": {
+            "_force": 0,
+            "direction": 0,
+            "energy": 0,
+            "_explosionShape": "",
+            "_gravity": 0,
+            "_airFriction": 0
+          },
+          "_particlesArr": [],
+          "particlesList": []
+        }
+      }
+    ],
+    "particleSystem": {
+      "size": 64,
+      "canvasId": 0,
+      "offsetY": 0,
+      "blend": 1,
+      "bgColor": 4278190080,
+      "emitter": {
+        "_lifeTime": 0,
+        "_isEmitter": 0,
+        "_frames": [],
+        "id": 0,
+        "spriteId": 0,
+        "explosionAnimation": "",
+        "fuseTime": 0,
+        "_name": "",
+        "maxNumParticles": 0,
+        "particlesPerFrame": 0,
+        "burstPulse": 1,
+        "simulation": {
+          "_force": 0,
+          "direction": 0,
+          "energy": 0,
+          "_explosionShape": "",
+          "_gravity": 0,
+          "_airFriction": 0
+        },
+        "_particlesArr": [],
+        "particlesList": []
+      }
+    },
+    "mask": {
+      "type": ""
+    },
+    "model": {
+      "dimensions": {
+        "x": 2,
+        "y": 0.2,
+        "z": 3,
+        "centerZ": 0
+      },
+      "directions": [
+        {
+          "id": 90
+        },
+        {
+          "id": 180
+        }
+      ],
+      "populated": 1,
+      "directionIds": [
+        90,
+        180
+      ]
+    }
+  },
+  "visualization": {
+    "type": "hween_c23_pyramidsbg",
+    "visualizations": [
+      {
+        "size": 1,
+        "angle": 360,
+        "directions": [],
+        "colors": [],
+        "layers": [],
+        "animations": [],
+        "layerCount": 1,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "",
+              "y": "",
+              "z": "",
+              "alpha": "",
+              "ignoreMouse": "",
+              "blendMode": "",
+              "tag": "",
+              "offset": {
+                "x": -3.4028235E+38,
+                "y": -3.4028235E+38,
+                "z": -3.4028235E+38
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      },
+      {
+        "size": 64,
+        "angle": 45,
+        "directions": [
+          {
+            "id": 2,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "-2000",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "layers": [],
+            "allLayers": [
+              {
+                "id": "0",
+                "x": "0",
+                "y": "0",
+                "z": "-2000",
+                "alpha": "255",
+                "ignoreMouse": "0",
+                "blendMode": "default",
+                "tag": "",
+                "offset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 2
+                }
+              }
+            ]
+          }
+        ],
+        "colors": [],
+        "layers": [
+          {
+            "id": "0",
+            "x": "",
+            "y": "",
+            "z": "-2000",
+            "alpha": "",
+            "ignoreMouse": "",
+            "blendMode": "",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            }
+          }
+        ],
+        "animations": [
+          {
+            "id": 0,
+            "randomStart": 0,
+            "transitionFrom": "",
+            "transitionTo": "",
+            "immediateChangeFrom": "",
+            "layers": [
+              {
+                "id": 0,
+                "loopCountString": "0",
+                "randomString": "",
+                "frameRepeatString": "5",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 0,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 1,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 2,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 3,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 4,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 3,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 2,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 1,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                    ],
+                    "frameRepeats": [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 0,
+                "frameRepeat": 5,
+                "random": 0
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "randomStart": 0,
+            "transitionFrom": "",
+            "transitionTo": "",
+            "immediateChangeFrom": "",
+            "layers": [
+              {
+                "id": 0,
+                "loopCountString": "0",
+                "randomString": "",
+                "frameRepeatString": "5",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 5,
+                        "repeats": 5
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 6,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 7,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 8,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 9,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 10,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 11,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 12,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 11,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 10,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 9,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 8,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 7,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 6,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11,
+                      12,
+                      13
+                    ],
+                    "frameRepeats": [
+                      5,
+                      4,
+                      3,
+                      2,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 0,
+                "frameRepeat": 5,
+                "random": 0
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "randomStart": 0,
+            "transitionFrom": "",
+            "transitionTo": "",
+            "immediateChangeFrom": "",
+            "layers": [
+              {
+                "id": 0,
+                "loopCountString": "0",
+                "randomString": "",
+                "frameRepeatString": "5",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 13,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 14,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 15,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 16,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 17,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 18,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 19,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 20,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 21,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 22,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 23,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 24,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 25,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11,
+                      12
+                    ],
+                    "frameRepeats": [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 0,
+                "frameRepeat": 5,
+                "random": 0
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "randomStart": 0,
+            "transitionFrom": "",
+            "transitionTo": "",
+            "immediateChangeFrom": "",
+            "layers": [
+              {
+                "id": 0,
+                "loopCountString": "0",
+                "randomString": "",
+                "frameRepeatString": "4",
+                "frameSequences": [
+                  {
+                    "frames": [
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 26,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 27,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 28,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 29,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 30,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 31,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 32,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 33,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 34,
+                        "repeats": 1
+                      },
+                      {
+                        "offsetsXOffsets": [],
+                        "offsetsYOffsets": [],
+                        "randomX": 0,
+                        "randomY": 0,
+                        "x": 0,
+                        "y": 0,
+                        "id": 35,
+                        "repeats": 1
+                      }
+                    ],
+                    "frameIndexes": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9
+                    ],
+                    "frameRepeats": [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "loopCount": 1,
+                    "random": 0
+                  }
+                ],
+                "loopCount": 0,
+                "frameRepeat": 4,
+                "random": 0
+              }
+            ]
+          }
+        ],
+        "layerCount": 1,
+        "defaultDirPopulated": 1,
+        "defaultDirection": {
+          "id": 0,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "-2000",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 2
+              }
+            }
+          ]
+        },
+        "dirsPopulated": 1
+      }
+    ],
+    "typeLower": "hween_c23_pyramidsbg",
+    "defaultVisualization": {
+      "size": 64,
+      "angle": 45,
+      "directions": [
+        {
+          "id": 2,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "-2000",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "layers": [],
+          "allLayers": [
+            {
+              "id": "0",
+              "x": "0",
+              "y": "0",
+              "z": "-2000",
+              "alpha": "255",
+              "ignoreMouse": "0",
+              "blendMode": "default",
+              "tag": "",
+              "offset": {
+                "x": 0,
+                "y": 0,
+                "z": 2
+              }
+            }
+          ]
+        }
+      ],
+      "colors": [],
+      "layers": [
+        {
+          "id": "0",
+          "x": "",
+          "y": "",
+          "z": "-2000",
+          "alpha": "",
+          "ignoreMouse": "",
+          "blendMode": "",
+          "tag": "",
+          "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 2
+          }
+        }
+      ],
+      "animations": [
+        {
+          "id": 0,
+          "randomStart": 0,
+          "transitionFrom": "",
+          "transitionTo": "",
+          "immediateChangeFrom": "",
+          "layers": [
+            {
+              "id": 0,
+              "loopCountString": "0",
+              "randomString": "",
+              "frameRepeatString": "5",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 0,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 1,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 2,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 3,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 4,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 3,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 2,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 1,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "frameRepeats": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 0,
+              "frameRepeat": 5,
+              "random": 0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "randomStart": 0,
+          "transitionFrom": "",
+          "transitionTo": "",
+          "immediateChangeFrom": "",
+          "layers": [
+            {
+              "id": 0,
+              "loopCountString": "0",
+              "randomString": "",
+              "frameRepeatString": "5",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 5,
+                      "repeats": 5
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 6,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 7,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 8,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 9,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 10,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 11,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 12,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 11,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 10,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 9,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 8,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 7,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 6,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                  ],
+                  "frameRepeats": [
+                    5,
+                    4,
+                    3,
+                    2,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 0,
+              "frameRepeat": 5,
+              "random": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "randomStart": 0,
+          "transitionFrom": "",
+          "transitionTo": "",
+          "immediateChangeFrom": "",
+          "layers": [
+            {
+              "id": 0,
+              "loopCountString": "0",
+              "randomString": "",
+              "frameRepeatString": "5",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 13,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 14,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 15,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 16,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 17,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 18,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 19,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 20,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 21,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 22,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 23,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 24,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 25,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                  ],
+                  "frameRepeats": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 0,
+              "frameRepeat": 5,
+              "random": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "randomStart": 0,
+          "transitionFrom": "",
+          "transitionTo": "",
+          "immediateChangeFrom": "",
+          "layers": [
+            {
+              "id": 0,
+              "loopCountString": "0",
+              "randomString": "",
+              "frameRepeatString": "4",
+              "frameSequences": [
+                {
+                  "frames": [
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 26,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 27,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 28,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 29,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 30,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 31,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 32,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 33,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 34,
+                      "repeats": 1
+                    },
+                    {
+                      "offsetsXOffsets": [],
+                      "offsetsYOffsets": [],
+                      "randomX": 0,
+                      "randomY": 0,
+                      "x": 0,
+                      "y": 0,
+                      "id": 35,
+                      "repeats": 1
+                    }
+                  ],
+                  "frameIndexes": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                  ],
+                  "frameRepeats": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "loopCount": 1,
+                  "random": 0
+                }
+              ],
+              "loopCount": 0,
+              "frameRepeat": 4,
+              "random": 0
+            }
+          ]
+        }
+      ],
+      "layerCount": 1,
+      "defaultDirPopulated": 1,
+      "defaultDirection": {
+        "id": 0,
+        "layers": [],
+        "allLayers": [
+          {
+            "id": "0",
+            "x": "0",
+            "y": "0",
+            "z": "-2000",
+            "alpha": "255",
+            "ignoreMouse": "0",
+            "blendMode": "default",
+            "tag": "",
+            "offset": {
+              "x": 0,
+              "y": 0,
+              "z": 2
+            }
+          }
+        ]
+      },
+      "dirsPopulated": 1
+    }
+  },
+  "assets": {
+    "assets": [
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_0",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_1",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_2",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_3",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_4",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_5",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_6",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_7",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_8",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_9",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_10",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_11",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_12",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_13",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_14",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_15",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_16",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_17",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_18",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_19",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_20",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_21",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_22",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_23",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_24",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_25",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_26",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_27",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_28",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_29",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_30",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_31",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_32",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_33",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_34",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_2_35",
+        "source": "",
+        "x": 32,
+        "y": 343,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_0",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_1",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_2",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_3",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_4",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_5",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_6",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_7",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_8",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_9",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_10",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_11",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_12",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_13",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_14",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_15",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_16",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_17",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_18",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_19",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_20",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_21",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_22",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_23",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_24",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_25",
+        "source": "",
+        "x": 32,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_26",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_27",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_28",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_29",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_30",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_31",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_32",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_33",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_34",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_64_a_4_35",
+        "source": "",
+        "x": 33,
+        "y": 342,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      },
+      {
+        "name": "hween_c23_pyramidsbg_icon_a",
+        "source": "",
+        "x": 12,
+        "y": 14,
+        "flipH": 0,
+        "flipV": 0,
+        "usesPalette": 0
+      }
+    ]
+  },
+  "asAssets": {
+    "assetDataMapping": [
+      {
+        "fileName": "manifest",
+        "source": "manifest.xml"
+      },
+      {
+        "fileName": "index",
+        "source": "index.xml"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_visualization",
+        "source": "hween_c23_pyramidsbg_visualization.xml"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_assets",
+        "source": "hween_c23_pyramidsbg_assets.xml"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_logic",
+        "source": "hween_c23_pyramidsbg_logic.xml"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_0",
+        "source": "hween_c23_pyramidsbg_64_a_2_0.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_3",
+        "source": "hween_c23_pyramidsbg_64_a_2_3.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_27",
+        "source": "hween_c23_pyramidsbg_64_a_4_27.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_33",
+        "source": "hween_c23_pyramidsbg_64_a_4_33.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_icon_a",
+        "source": "hween_c23_pyramidsbg_icon_a.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_21",
+        "source": "hween_c23_pyramidsbg_64_a_4_21.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_24",
+        "source": "hween_c23_pyramidsbg_64_a_4_24.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_5",
+        "source": "hween_c23_pyramidsbg_64_a_4_5.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_19",
+        "source": "hween_c23_pyramidsbg_64_a_2_19.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_18",
+        "source": "hween_c23_pyramidsbg_64_a_4_18.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_35",
+        "source": "hween_c23_pyramidsbg_64_a_2_35.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_2",
+        "source": "hween_c23_pyramidsbg_64_a_4_2.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_16",
+        "source": "hween_c23_pyramidsbg_64_a_2_16.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_15",
+        "source": "hween_c23_pyramidsbg_64_a_4_15.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_32",
+        "source": "hween_c23_pyramidsbg_64_a_2_32.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_34",
+        "source": "hween_c23_pyramidsbg_64_a_4_34.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_10",
+        "source": "hween_c23_pyramidsbg_64_a_2_10.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_13",
+        "source": "hween_c23_pyramidsbg_64_a_2_13.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_23",
+        "source": "hween_c23_pyramidsbg_64_a_2_23.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_29",
+        "source": "hween_c23_pyramidsbg_64_a_2_29.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_7",
+        "source": "hween_c23_pyramidsbg_64_a_2_7.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_9",
+        "source": "hween_c23_pyramidsbg_64_a_4_9.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_12",
+        "source": "hween_c23_pyramidsbg_64_a_4_12.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_26",
+        "source": "hween_c23_pyramidsbg_64_a_2_26.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_4",
+        "source": "hween_c23_pyramidsbg_64_a_2_4.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_3",
+        "source": "hween_c23_pyramidsbg_64_a_4_3.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_20",
+        "source": "hween_c23_pyramidsbg_64_a_2_20.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_22",
+        "source": "hween_c23_pyramidsbg_64_a_4_22.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_1",
+        "source": "hween_c23_pyramidsbg_64_a_2_1.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_0",
+        "source": "hween_c23_pyramidsbg_64_a_4_0.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_31",
+        "source": "hween_c23_pyramidsbg_64_a_4_31.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_30",
+        "source": "hween_c23_pyramidsbg_64_a_2_30.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_25",
+        "source": "hween_c23_pyramidsbg_64_a_4_25.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_28",
+        "source": "hween_c23_pyramidsbg_64_a_4_28.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_6",
+        "source": "hween_c23_pyramidsbg_64_a_4_6.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_16",
+        "source": "hween_c23_pyramidsbg_64_a_4_16.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_33",
+        "source": "hween_c23_pyramidsbg_64_a_2_33.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_35",
+        "source": "hween_c23_pyramidsbg_64_a_4_35.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_11",
+        "source": "hween_c23_pyramidsbg_64_a_2_11.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_14",
+        "source": "hween_c23_pyramidsbg_64_a_2_14.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_13",
+        "source": "hween_c23_pyramidsbg_64_a_4_13.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_19",
+        "source": "hween_c23_pyramidsbg_64_a_4_19.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_17",
+        "source": "hween_c23_pyramidsbg_64_a_2_17.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_8",
+        "source": "hween_c23_pyramidsbg_64_a_2_8.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_32",
+        "source": "hween_c23_pyramidsbg_64_a_4_32.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_24",
+        "source": "hween_c23_pyramidsbg_64_a_2_24.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_27",
+        "source": "hween_c23_pyramidsbg_64_a_2_27.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_5",
+        "source": "hween_c23_pyramidsbg_64_a_2_5.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_29",
+        "source": "hween_c23_pyramidsbg_64_a_4_29.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_10",
+        "source": "hween_c23_pyramidsbg_64_a_4_10.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_23",
+        "source": "hween_c23_pyramidsbg_64_a_4_23.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_2",
+        "source": "hween_c23_pyramidsbg_64_a_2_2.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_26",
+        "source": "hween_c23_pyramidsbg_64_a_4_26.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_7",
+        "source": "hween_c23_pyramidsbg_64_a_4_7.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_21",
+        "source": "hween_c23_pyramidsbg_64_a_2_21.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_20",
+        "source": "hween_c23_pyramidsbg_64_a_4_20.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_1",
+        "source": "hween_c23_pyramidsbg_64_a_4_1.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_4",
+        "source": "hween_c23_pyramidsbg_64_a_4_4.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_18",
+        "source": "hween_c23_pyramidsbg_64_a_2_18.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_17",
+        "source": "hween_c23_pyramidsbg_64_a_4_17.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_34",
+        "source": "hween_c23_pyramidsbg_64_a_2_34.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_11",
+        "source": "hween_c23_pyramidsbg_64_a_4_11.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_12",
+        "source": "hween_c23_pyramidsbg_64_a_2_12.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_15",
+        "source": "hween_c23_pyramidsbg_64_a_2_15.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_25",
+        "source": "hween_c23_pyramidsbg_64_a_2_25.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_31",
+        "source": "hween_c23_pyramidsbg_64_a_2_31.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_9",
+        "source": "hween_c23_pyramidsbg_64_a_2_9.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_8",
+        "source": "hween_c23_pyramidsbg_64_a_4_8.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_14",
+        "source": "hween_c23_pyramidsbg_64_a_4_14.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_28",
+        "source": "hween_c23_pyramidsbg_64_a_2_28.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_6",
+        "source": "hween_c23_pyramidsbg_64_a_2_6.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_4_30",
+        "source": "hween_c23_pyramidsbg_64_a_4_30.png"
+      },
+      {
+        "fileName": "hween_c23_pyramidsbg_64_a_2_22",
+        "source": "hween_c23_pyramidsbg_64_a_2_22.png"
+      }
+    ]
+  }
+}
